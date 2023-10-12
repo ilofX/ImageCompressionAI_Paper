@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+  \PYG{c+c1}{\PYGZsh{} can your editor do this? $\displaystyle{f(x) = m + \sum\limits_{k=1}^\infty A_k \cos(k x - \varphi_k)}$}
+
+  \PYG{k+kn}{import} \PYG{n+nn}{this}
+
+  \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}hello, world\PYGZsq{}}\PYG{p}{)}
+\end{Verbatim}
