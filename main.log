@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/CVE-2023-32700 patched)  (format=lualatex 2023.10.12)  12 OCT 2023 20:31
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/CVE-2023-32700 patched)  (format=lualatex 2023.10.12)  16 OCT 2023 19:15
  system commands enabled.
  file:line:error style messages enabled.
 **/home/filippo/VSCodeProjects/ImageCompressionAI_Paper/ImageCompressionAI_Paper/main.tex
@@ -1234,14 +1234,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 
 warning  (file Immagini/logo_unipd.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.5', but at most version '1.4' allowed
-<Immagini/logo_unipd.pdf, id=25, 335.2525pt x 153.57375pt>
+<Immagini/logo_unipd.pdf, id=105, 335.2525pt x 153.57375pt>
 File: Immagini/logo_unipd.pdf Graphic file (type pdf)
 <use Immagini/logo_unipd.pdf>
 Package luatex.def Info: Immagini/logo_unipd.pdf  used on input line 7.
 (luatex.def)             Requested size: 182.09486pt x 83.41365pt.
 
 warning  (file Immagini/logo_dei.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.5', but at most version '1.4' allowed
-<Immagini/logo_dei.pdf, id=26, 98.3675pt x 63.23625pt>
+<Immagini/logo_dei.pdf, id=106, 98.3675pt x 63.23625pt>
 File: Immagini/logo_dei.pdf Graphic file (type pdf)
 <use Immagini/logo_dei.pdf>
 Package luatex.def Info: Immagini/logo_dei.pdf  used on input line 11.
@@ -1270,64 +1270,56 @@ LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/sc' undefined
 
 ] [8
 
-] (./main.lof)
-\tf@lof=\write10
-
-\openout10 = main.lof
- [9
-
-] [10
-
-] (./Capitoli/capitoloprova.tex
+] (./Capitoli/metodiTradizionali.tex
 Capitolo 1.
+) (./Capitoli/metodiAppresi.tex [1
 
-\openout3 = main.pyg
-(./_minted-main/default.pygstyle) (./_minted-main/F7E153BD3701A19D30F0BBEF13CA790B3D95CACCFF2E17BC302CEAC531AD0DEF.pygtex [1
+] [2
 
 ]
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 4.
-)) [2]
-Underfull \hbox (badness 1708) in paragraph at lines 74--74
-[]\TU/TimesNewRoman(0)/m/sc/12 L. Lam-port, \TU/TimesNewRoman(0)/m/it/12 La-TeX: A Do-cu-ment Pre-pa-ra-tion Sy-stem\TU/TimesNewRoman(0)/m/sc/12 . Addison-Wesley Pu-bli-shing
- []
+Capitolo 2.
+) (./Capitoli/valutazionePrestazioni.tex [3] [4
 
-[3
+]
+Capitolo 3.
+) (./Capitoli/sviluppiFuturi.tex [5] [6
 
+]
+Capitolo 4.
+) (./Capitoli/conclusioni.tex [7] [8
 
-] (./main.aux)
+]
+Capitolo 5.
+) [9] [10
+
+]
+
+LaTeX Warning: Empty bibliography on input line 83.
+
+(./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F23EAEBD297FBCEC64B8049BE24431AC;258.
-runsystem(rm main.pyg)...executed
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 89AE946E7C2D012012D8A5D011375DF3;1531.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 36390 strings out of 478457
+ 36108 strings out of 478457
  100000,1977958 words of node,token memory allocated
- 633 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 19 attribute, 68 glue_spec, 11 attribute_list, 2 write nodes
-   avail lists: 1:3,2:408,3:191,4:30,5:76,6:36,7:1875,8:24,9:237,10:5,11:163
- 55095 multiletter control sequences out of 65536+600000
- 53 fonts using 7607007 bytes
- 94i,8n,87p,1955b,2490s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmmono10-italic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></usr/share/fonts/msttcore/timesi.ttf></usr/share/fonts/msttcore/timesbd.ttf></usr/share/fonts/msttcore/times.ttf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (13 pages, 232060 bytes).
+ 611 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 15 attribute, 66 glue_spec, 9 attribute_list, 2 write nodes
+   avail lists: 1:3,2:821,3:261,4:86,5:184,6:74,7:5350,8:53,9:342,10:39,11:852
+ 54801 multiletter control sequences out of 65536+600000
+ 50 fonts using 7228423 bytes
+ 94i,8n,87p,1955b,2370s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/fonts/msttcore/timesi.ttf></usr/share/fonts/msttcore/timesbd.ttf></usr/share/fonts/msttcore/times.ttf>
+Output written on main.pdf (18 pages, 159248 bytes).
 
-PDF statistics: 189 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 131072)
- 63 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 245 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 131072)
+ 223 words of extra memory for PDF output out of 10000 (max. 100000000)
 

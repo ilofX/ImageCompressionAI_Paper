@@ -16,26 +16,5 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}
-  \entry{lamport1986latex}{book}{}
-    \name{author}{1}{}{%
-      {{hash=LL}{%
-         family={Lamport},
-         familyi={L\bibinitperiod},
-         given={Leslie},
-         giveni={L\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Addison-Wesley Publishing Company}%
-    }
-    \strng{namehash}{LL1}
-    \strng{fullhash}{LL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{isbn}{9780201157901}
-    \field{title}{LaTeX: A Document Preparation System}
-    \field{year}{1986}
-  \endentry
-\enddatalist
+\datalist[entry]{none/global//global/global}\enddatalist
 \endinput

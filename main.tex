@@ -37,11 +37,11 @@
 \sloppy % per evitare che il testo in \verb finisca oltre i margini
 
 % questi valori vengono usati nella composizione del frontespizio
-\title{Titolo della tesi}
+\title{Compressione di immagini tramite autoencoder, stato dell’arte e sviluppi futuri}
 \author{Stella Filippo}
 \date{GG/MM/AAAA}
 \newcommand{\supervisor}{Prof. Cagnazzo Marco}
-\newcommand{\assistantsupervisor}{Cognome Nome}
+%\newcommand{\assistantsupervisor}{Cognome Nome}
 
 \begin{document}
     \pagenumbering{roman}
@@ -56,19 +56,28 @@
     \pagestyle{plain} % comincia a mostrare il numero di pagina
 
     % NOTA: l'ambiente \abstract rimuove il numero della pagina e resetta il contatore delle pagine. 
-    \chapter*{Sommario}
-    Descrizione dell'obiettivo della tesi.
+    \chapter*{Introduzione}
+    Nell’era moderna la crescente quantità di dati di cui usufruiamo ogni giorno sta ricevendo, dagli esperti del settore, molte attenzioni. In quanto il troughput e la quantità di memoria di cui disponiamo sui nostri dispositivi sono, seppur ad oggi ampiamente sufficienti, comunque limitate. Un’altra ragione di questa attenzione è la crescente diffusione di servizi in tempo reale che quindi richiedono di scambiare quantità di dati considerevoli in pochissimo tempo. Un esempio di tali servizi potrebbe essere l’uso della realtà aumentata in ambito medico o di ricerca. Comprimere i dati è quindi ormai una necessità, che si farà sempre più impellente con il crescere delle dimensioni dei dati che andremo a gestire.
+    La compressione è un processo che mira a minimizzare il numero di bit utilizzati per rappresentare una certa informazione senza intaccarne drasticamente la qualità.
+    Comprimere un’immagine significa ridurre la quantità di dati necessari per rappresentare l’immagine, questo si ottiene riducendo le ridondanze e eliminando i dati irrilevanti.
+    A partire dai primi anni primi anni novanta infatti si sono iniziate a sviluppare alcune tecniche, a cui oggi si fa rifermento come tecniche “tradizionali”, per comprimere le immagini. Stiamo parlando ed esempio di JPEG e del suo successore JPEG2000, di più recente sviluppo sono invece i codec BPG e VVC.
+    Più recentemente l’attenzione dei ricercatori si è spostata su metodi basati su deep learning. Questi metodi presentano diversi vantaggi rispetto ai metodi “tradizionali”, infatti molte volte permettono di ottenere performance migliori rispetto ai metodi classici.
+    In questo documento ci proponiamo di fornire una panoramica dei metodi di compressione tradizionali più usati, e di quelli basati su deep learning che hanno fornito un maggiore contributo allo sviluppo di questi ultimi. Dopo aver presentato le varie tecniche vogliamo fornire una valutazione delle prestazioni in modo da poterli comprare ed evidenziare potenzialità e difetti di ognuno. In conclusione vorremmo fornire alcuni spunti per che potrebbero favorire l’adozione di queste tecniche più recenti nella nostra vita digitale di tutti i giorni.
     \cleardoublepage
 
     \tableofcontents
     \cleardoublepage
     
-    \listoffigures
-    \cleardoublepage % per assicurarsi che la numerazione araba cominci col primo capitolo
-    
-    \pagenumbering{arabic}
+%    \listoffigures
+%    \cleardoublepage 
 
-    \input{Capitoli/capitoloprova}
+    \pagenumbering{arabic} % per assicurarsi che la numerazione araba cominci col primo capitolo 
+
+    \input{Capitoli/metodiTradizionali}
+    \input{Capitoli/metodiAppresi}
+    \input{Capitoli/valutazionePrestazioni}
+    \input{Capitoli/sviluppiFuturi}
+    \input{Capitoli/conclusioni}
     \cleardoublepage
 
     \printbibliography[heading=bibintoc]
