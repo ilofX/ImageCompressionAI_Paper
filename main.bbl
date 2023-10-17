@@ -16,5 +16,257 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}\enddatalist
+\datalist[entry]{none/global//global/global}
+  \entry{sadeeq2021image}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SHT}{%
+         family={Sadeeq},
+         familyi={S\bibinitperiod},
+         given={Haval\bibnamedelima T},
+         giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=HTH}{%
+         family={Hameed},
+         familyi={H\bibinitperiod},
+         given={Thamer\bibnamedelima H},
+         giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=AAS}{%
+         family={Abdi},
+         familyi={A\bibinitperiod},
+         given={Abdo\bibnamedelima S},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=AAN}{%
+         family={Abdulfatah},
+         familyi={A\bibinitperiod},
+         given={Ayman\bibnamedelima N},
+         giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SHTHTHAAS+1}
+    \strng{fullhash}{SHTHTHAASAAN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{14}
+    \field{pages}{135\bibrangedash 153}
+    \field{title}{Image compression using neural networks: a review}
+    \field{volume}{17}
+    \field{journaltitle}{International Journal of Online and Biomedical Engineering (iJOE)}
+    \field{year}{2021}
+  \endentry
+
+  \entry{mishra2022deep}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MD}{%
+         family={Mishra},
+         familyi={M\bibinitperiod},
+         given={Dipti},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SSK}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Satish\bibnamedelima Kumar},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=SRK}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Rajat\bibnamedelima Kumar},
+         giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{MDSSKSRK1}
+    \strng{fullhash}{MDSSKSRK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{108346}
+    \field{title}{Deep architectures for image compression: a critical review}
+    \field{volume}{191}
+    \field{journaltitle}{Signal Processing}
+    \field{year}{2022}
+  \endentry
+
+  \entry{cheng2018deep}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=CZ}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Zhengxue},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Heming},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Takeuchi},
+         familyi={T\bibinitperiod},
+         given={Masaru},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Katto},
+         familyi={K\bibinitperiod},
+         given={Jiro},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{CZSHTM+1}
+    \strng{fullhash}{CZSHTMKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2018 Picture Coding Symposium (PCS)}
+    \field{pages}{253\bibrangedash 257}
+    \field{title}{Deep convolutional autoencoder-based lossy image compression}
+    \field{year}{2018}
+  \endentry
+
+  \entry{125072}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WG}{%
+         family={Wallace},
+         familyi={W\bibinitperiod},
+         given={G.K.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WG1}
+    \strng{fullhash}{WG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/30.125072
+    \endverb
+    \field{number}{1}
+    \field{pages}{xviii\bibrangedash xxxiv}
+    \field{title}{The JPEG still picture compression standard}
+    \field{volume}{38}
+    \field{journaltitle}{IEEE Transactions on Consumer Electronics}
+    \field{year}{1992}
+  \endentry
+
+  \entry{952804}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SA}{%
+         family={Skodras},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Christopoulos},
+         familyi={C\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ET}{%
+         family={Ebrahimi},
+         familyi={E\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SACCET1}
+    \strng{fullhash}{SACCET1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/79.952804
+    \endverb
+    \field{number}{5}
+    \field{pages}{36\bibrangedash 58}
+    \field{title}{The JPEG 2000 still image compression standard}
+    \field{volume}{18}
+    \field{journaltitle}{IEEE Signal Processing Magazine}
+    \field{year}{2001}
+  \endentry
+
+  \entry{BPGImageformat}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=BF}{%
+         family={Bellard},
+         familyi={B\bibinitperiod},
+         given={Fabrice},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BF1}
+    \strng{fullhash}{BF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://bellard.org/bpg/}}
+    \field{note}{Consultato: 17-10-2023}
+    \field{title}{BPG Image format}
+  \endentry
+
+  \entry{9503377}{article}{}
+    \name{author}{7}{}{%
+      {{hash=BB}{%
+         family={Bross},
+         familyi={B\bibinitperiod},
+         given={Benjamin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=WYK}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Ye-Kui},
+         giveni={Y\bibinithyphendelim K\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Ye},
+         familyi={Y\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Shan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jianle},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SGJ}{%
+         family={Sullivan},
+         familyi={S\bibinitperiod},
+         given={Gary\bibnamedelima J.},
+         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=OJR}{%
+         family={Ohm},
+         familyi={O\bibinitperiod},
+         given={Jens-Rainer},
+         giveni={J\bibinithyphendelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BBWYKYY+1}
+    \strng{fullhash}{BBWYKYYLSCJSGJOJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/TCSVT.2021.3101953
+    \endverb
+    \field{number}{10}
+    \field{pages}{3736\bibrangedash 3764}
+    \field{title}{Overview of the Versatile Video Coding (VVC) Standard and its Applications}
+    \field{volume}{31}
+    \field{journaltitle}{IEEE Transactions on Circuits and Systems for Video Technology}
+    \field{year}{2021}
+  \endentry
+\enddatalist
 \endinput
