@@ -17,6 +17,48 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
+  \entry{hu2021learning}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HY}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={Yueyu},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=YW}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Wenhan},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=MZ}{%
+         family={Ma},
+         familyi={M\bibinitperiod},
+         given={Zhan},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Jiaying},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{HYYWMZ+1}
+    \strng{fullhash}{HYYWMZLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{8}
+    \field{pages}{4194\bibrangedash 4211}
+    \field{title}{Learning end-to-end lossy image compression: A benchmark}
+    \field{volume}{44}
+    \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+    \field{year}{2021}
+  \endentry
+
   \entry{sadeeq2021image}{article}{}
     \name{author}{4}{}{%
       {{hash=SHT}{%
@@ -54,41 +96,6 @@
     \field{volume}{17}
     \field{journaltitle}{International Journal of Online and Biomedical Engineering (iJOE)}
     \field{year}{2021}
-  \endentry
-
-  \entry{mishra2022deep}{article}{}
-    \name{author}{3}{}{%
-      {{hash=MD}{%
-         family={Mishra},
-         familyi={M\bibinitperiod},
-         given={Dipti},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=SSK}{%
-         family={Singh},
-         familyi={S\bibinitperiod},
-         given={Satish\bibnamedelima Kumar},
-         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=SRK}{%
-         family={Singh},
-         familyi={S\bibinitperiod},
-         given={Rajat\bibnamedelima Kumar},
-         giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{MDSSKSRK1}
-    \strng{fullhash}{MDSSKSRK1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{108346}
-    \field{title}{Deep architectures for image compression: a critical review}
-    \field{volume}{191}
-    \field{journaltitle}{Signal Processing}
-    \field{year}{2022}
   \endentry
 
   \entry{cheng2018deep}{inproceedings}{}

@@ -56,26 +56,25 @@
     \pagestyle{plain} % comincia a mostrare il numero di pagina
 
     % NOTA: l'ambiente \abstract rimuove il numero della pagina e resetta il contatore delle pagine. 
-    \chapter*{Introduzione}
-    Nell’era moderna la crescente quantità di dati di cui usufruiamo ogni giorno sta ricevendo, dagli esperti del settore, molte attenzioni. In quanto il troughput e la quantità di memoria di cui disponiamo sui nostri dispositivi sono, seppur ad oggi ampiamente sufficienti, comunque limitati. Un’altra ragione di questa attenzione è la crescente diffusione di servizi in tempo reale che quindi richiedono di scambiare quantità di dati considerevoli in pochissimo tempo. Un esempio di tali servizi potrebbe essere l’uso della realtà aumentata.
-    Comprimere i dati è quindi ormai una necessità, che si farà sempre più impellente con il crescere delle dimensioni dei dati che andremo a gestire.\\
-    I metodi di compressione delle immagini sono solitamente divisi in due grandi categorie, Lossless e Lossy. I primi comprimono la rappresentazione senza scartare alcuna informazione. I secondi invece permettono di scartare alcune informazioni, senza impattare significativamente sulla qualità, per permettere una rappresentazione più ridotta.\cite{sadeeq2021image}
-    Noi ci concentreremo sui metodi Lossy in quanto sono quelli che stanno suscitando più interesse e presentano più difficolta.\\
-    Comprimere un’immagine significa ridurre la quantità di bit necessari per rappresentare l’immagine, questo si ottiene riducendo le ridondanze e eliminando i dati irrilevanti. \cite{mishra2022deep}
-    A partire dai primi anni primi anni novanta si sono iniziate a sviluppare alcune tecniche di compressione, a cui oggi si fa rifermento come tecniche “tradizionali”. Stiamo parlando ed esempio di JPEG e del suo successore JPEG2000, di più recente sviluppo sono invece i codec BPG e VVC.
-    Più recentemente l’attenzione si è spostata su metodi basati su deep learning. Questi metodi presentano diversi vantaggi rispetto ai metodi “tradizionali”, principalmente la flessibilità e la capacità di individuare con più precisione le regioni più significative delle immagini.
-    In questo documento ci proponiamo di fornire una panoramica dei metodi di compressione tradizionali più usati, e di quelli basati su deep learning che hanno fornito un maggiore contributo allo sviluppo di questi ultimi. Nello specifico ci concenteremo sui metodi che fanno uso di autoencoder, in quanto hanno prodotto i risultati più significativi.\\
-    Dopo aver presentato le varie tecniche forniremo una valutazione delle prestazioni ed evidenziaremo potenzialità e difetti. In conclusione vorremmo fornire alcuni spunti per che potrebbero essere oggetto di future ricerche o approfondimenti.
+    \chapter*{Sommario}
+    Questo elaborato esplora il campo emergente della compressione delle immagini utilizzando autoencoder. L’obiettivo principale della ricerca è studiare e analizzare le tecniche esistenti per la compressione delle immagini tramite autoencoder.\\
+    Nel primo capitolo, la tesi fornisce una panoramica dello stato dell’arte della compressione delle immagini, discutendo le tecniche tradizionali e come gli autoencoder si inseriscono in questo panorama. Viene fornita una spiegazione dettagliata del funzionamento degli autoencoder e dei loro vantaggi rispetto ai metodi di compressione delle immagini tradizionali.\\
+    Il secondo capitolo si concentra sull’analisi delle tecniche esistenti per la compressione delle immagini tramite autoencoder. Vengono presentati vari studi di caso e vengono discusse le prestazioni di ciascuno in termini di qualità dell’immagine e rapporto di compressione.\\
+    Nel terzo e ultimo capitolo, la tesi esplora i possibili sviluppi futuri nel campo della compressione delle immagini tramite autoencoder. Si discute di come le tecniche attuali potrebbero essere migliorate e si ipotizzano nuove direzioni di ricerca.\\
+    In conclusione, questa tesi fornisce una panoramica completa dello stato dell’arte della compressione delle immagini tramite autoencoder e offre spunti preziosi per future ricerche in questo campo.\\
+
     \cleardoublepage
 
     \tableofcontents
     \cleardoublepage
     
-%    \listoffigures
-%    \cleardoublepage 
+    \listoffigures
+    \cleardoublepage 
 
     \pagenumbering{arabic} % per assicurarsi che la numerazione araba cominci col primo capitolo 
-
+    \setcounter{figure}{0} 
+    
+    \input{Capitoli/introduzione}
     \input{Capitoli/metodiTradizionali}
     \input{Capitoli/metodiAppresi}
     \input{Capitoli/valutazionePrestazioni}

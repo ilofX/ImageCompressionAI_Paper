@@ -1,16 +1,4 @@
 \chapter{Metodi tradizionali}
-Se andiamo ad osservare gli algoritmi di codifica Lossy possiamo scomporli tutti in almeno tre blocchi principali. \cite{sadeeq2021image} \\
-Un primo blocco si occupa di convertire l’immagine in una rappresentazione latente, tramite l’applicazione di una trasformata, in un altro dominio che permette di rappresentare l’informazione da comprimere in modo più sparso.\\
-Successivamente si ha un blocco che si occupa di quantizzazione, ovvero di mappare i valori in ingresso in un insieme finito di dimensione più piccola rispetto a quello di ingresso. In questo passaggio so realizza la perdita di informazioni caratteristica della codifica Lossy.\\
-Un ultimo blocco si occupa di effettuare la codifica entropica, in modo da comprimere ulteriormente l’informazione mappando i simboli usati più spesso con pochi bit.
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.8\textwidth]{Immagini/LossyCompressorDiagram.png}
-    \caption{Diagramma di compressione Lossy}
-    \label{fig:LossyCompressorDiagram}
-\end{figure}
-
 Gli algoritmi di compressione tradizionali usano trasformate statiche all’interno del primo blocco, messe a punto in numerosi anni di ricerca. Questa staticità non permette a questi metodi di adattarsi dinamicamente a tutti i tipi di contenuti delle immagini. \cite{cheng2018deep}  Inoltre rende il processo di sviluppo di un nuovo algoritmo di compressione un processo lungo che richiede anni di studi e progettazione. \cite{ cheng2018deep}
 Andiamo ora a parlare brevemente dei metodi che andremo a considerare quando valuteremo le prestazioni dei vari algoritmi per poterli confrontare.
 
