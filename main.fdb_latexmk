@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1697712559 "main.aux" "main.bbl" "main" 1697712567 0
+["bibtex main"] 1697904717 "main.aux" "main.bbl" "main" 1697904783 0
   "./bibliografia.bib" 1697619677 4865 f6b7ebe6e185dd75f08cd98dfa9807ad ""
-  "./main-blx.bib" 1697712564 343 27af2fa4d0370999ebe8f3266686c889 ""
+  "./main-blx.bib" 1697904780 343 27af2fa4d0370999ebe8f3266686c889 ""
   "c:/Program Files/texlive/2023/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1695220347 65484 b7949c47a88ed6dca66ebc7a04577312 ""
-  "main.aux" 1697712564 6274 f7ea218bd8883dd24a4fe49b06455f5a "lualatex"
+  "main.aux" 1697904780 6274 414eb525e9caa94709163cd70acd3371 "lualatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["lualatex"] 1697712560 "c:/Users/filip/VSCodeProjects/ImageCompressionAI_Paper/ImageCompressionAI_Paper/main.tex" "main.pdf" "main" 1697712567 0
+["lualatex"] 1697904775 "c:/Users/filip/VSCodeProjects/ImageCompressionAI_Paper/ImageCompressionAI_Paper/main.tex" "main.pdf" "main" 1697904783 0
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc" 1697132202 81778 4b971d418b2657fbe4a746850e4f2af5 ""
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1697132195 128305 e5457bd3ae88deafa40b26f92c7eb4fc ""
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1697132187 127676 2cf9bffa5f112af2299efa77357666f7 ""
@@ -19,11 +19,11 @@
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1697132202 2197 3dcdd1fea208995cc45eddd6cc2dfd25 ""
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1697132187 295881 fc1467370230a98569f90f710b0daa39 ""
   "Capitoli/conclusioni.tex" 1697619677 23 c8c75e375351282ff7017e783dd72d90 ""
-  "Capitoli/dedica.tex" 1697619677 135 711d1292a7c1c97982b15017854ed619 ""
+  "Capitoli/dedica.tex" 1697904774 110 b03c51e4538f48750534947c6851226d ""
   "Capitoli/frontespizio.tex" 1697619677 1679 c2743898e1257f7a2377fde249aebe57 ""
   "Capitoli/introduzione.tex" 1697712282 4661 43d6b04b5c7a5ce03eb22c286849c74a ""
   "Capitoli/metodiAppresi.tex" 1697619677 146 7c4f224d6093e277af1fb3d8687dba60 ""
-  "Capitoli/metodiTradizionali.tex" 1697707936 2700 ec8de7c03b514c440b872e70856d4222 ""
+  "Capitoli/metodiTradizionali.tex" 1697904693 2740 23a7eadde214f4d77b071b9ac493abf4 ""
   "Capitoli/sviluppiFuturi.tex" 1697619677 154 1e1c7be861b150af9fbff43c46fa1843 ""
   "Capitoli/valutazionePrestazioni.tex" 1697619677 227 fcfbc6be68388b33868f7a4b4e052737 ""
   "Immagini/LossyCompressorDiagram.png" 1697619677 26984 4dc1a4f470f84429d8ae5fc0ea4af804 ""
@@ -256,14 +256,14 @@
   "c:/Windows/Fonts/times.ttf" 1651900759 1206884 458ef4da231b90ee89ef6d4d85c16633 ""
   "c:/Windows/Fonts/timesbd.ttf" 1651900759 1185876 d34f6a4606c0b4456cc2cc45caf8e123 ""
   "c:/Windows/Fonts/timesi.ttf" 1651900759 977892 4e1c7e34753073b9862671f9d6b5f511 ""
-  "main.aux" 1697712564 6274 f7ea218bd8883dd24a4fe49b06455f5a "lualatex"
-  "main.bbl" 1697712560 7775 1b75b283b9afc5ba00902364340d85f3 "bibtex main"
-  "main.lof" 1697712564 299 06b3a285b6e10eec1de99963bd666f3f "lualatex"
-  "main.out" 1697712564 1629 798f9dd22a8bfaf4bef33a2095d34e12 "lualatex"
-  "main.run.xml" 1697712564 2656 2acb9623ba9168458e0beafc4da3ef76 "lualatex"
+  "main.aux" 1697904780 6274 414eb525e9caa94709163cd70acd3371 "lualatex"
+  "main.bbl" 1697904718 7775 1b75b283b9afc5ba00902364340d85f3 "bibtex main"
+  "main.lof" 1697904780 299 06b3a285b6e10eec1de99963bd666f3f "lualatex"
+  "main.out" 1697904780 1629 798f9dd22a8bfaf4bef33a2095d34e12 "lualatex"
+  "main.run.xml" 1697904780 2656 2acb9623ba9168458e0beafc4da3ef76 "lualatex"
   "main.tex" 1697712555 4539 9ed96e50ecef4b69117c4f532a72178d ""
-  "main.toc" 1697712564 1998 0d1da25abc42c93ebb2710ddeee16e0f "lualatex"
-  "pdfa.xmpi" 1697712562 5042 035a61891bb861eb2822d7045ad94e4e "lualatex"
+  "main.toc" 1697904780 1998 0d1da25abc42c93ebb2710ddeee16e0f "lualatex"
+  "pdfa.xmpi" 1697904778 5042 91b662d0b76340a9c6644419a6fd9164 "lualatex"
   (generated)
   "main-blx.bib"
   "main.aux"
