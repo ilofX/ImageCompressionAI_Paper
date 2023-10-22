@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.19)  22 OCT 2023 20:40
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.19)  22 OCT 2023 23:54
  system commands enabled.
  file:line:error style messages enabled.
 **"d:/Utenti/filip/Desktop/Template tesi UniPD DEI/main.tex"
@@ -1119,9 +1119,18 @@ Package hyperref Info: Link coloring OFF on input line 47.
 Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 47.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+ ("|'inkscape' -V ")
+
+Package svg Warning: No version of Inkscape was detected by invoking
+(svg)                `inkscape -V'
+(svg)                so the Inkscape export will fail quite sure as the
+(svg)                command is probably unknown to your OS. You could set
+(svg)                `inkscapeversion=<version>' manually but this is very
+(svg)                unlikely to work on input line 47.
+
 Package biblatex Info: Trying to load language 'italian'...
 Package biblatex Info: ... file 'italian.lbx' found.
- (d:/Programmi/texlive/2023/texmf-dist/tex/latex/biblatex/lbx/italian.lbx
+(d:/Programmi/texlive/2023/texmf-dist/tex/latex/biblatex/lbx/italian.lbx
 File: italian.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: LuaTeX detected.
@@ -1251,16 +1260,6 @@ Package luatex.def Info: Immagini/logo_dei.pdf  used on input line 11.
 ] (./Capitoli/dedica.tex) [3] [4
 
 ]
-Underfull \hbox (badness 1259) in paragraph at lines 61--67
-\TU/TimesNewRoman(0)/m/n/12 ri-cer-ca. Suc-ces-si-va-men-te vie-ne for-ni-ta una spie-ga-zio-ne del prin-ci-pio di fun-zio-na-men-to
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 61--67
-\TU/TimesNewRoman(0)/m/n/12 In con-clu-sio-ne, que-sta te-si for-ni-sce una pa-no-ra-mi-ca com-ple-ta del-lo sta-to del-l’ar-te del-la
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 61--67
 
  []
@@ -1393,16 +1392,16 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 35942 strings out of 477259
+ 35943 strings out of 477259
  100000,1977958 words of node,token memory allocated
  652 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 25 attribute, 67 glue_spec, 14 attribute_list, 2 write, 1 pdf_action nodes
-   avail lists: 1:2,2:837,3:266,4:86,5:219,6:83,7:5675,8:39,9:398,10:37,11:886
+   avail lists: 1:2,2:837,3:266,4:86,5:219,6:83,7:5643,8:39,9:398,10:37,11:880
  56377 multiletter control sequences out of 65536+600000
  54 fonts using 20094695 bytes
  94i,8n,88p,1926b,3437s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/Programmi/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf><c:/Windows/Fonts/timesi.ttf><c:/Windows/Fonts/timesbd.ttf><c:/Windows/Fonts/times.ttf><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (27 pages, 26999516 bytes).
+Output written on main.pdf (27 pages, 26999485 bytes).
 
 PDF statistics: 361 PDF objects out of 1000 (max. 8388607)
  72 named destinations out of 1000 (max. 131072)

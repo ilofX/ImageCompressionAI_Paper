@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1697999869 "main.aux" "main.bbl" "main" 1698000064 0
+["bibtex main"] 1698001658 "main.aux" "main.bbl" "main" 1698011672 0
   "./bibliografia.bib" 1697563777 4740 f6b7ebe6e185dd75f08cd98dfa9807ad ""
-  "./main-blx.bib" 1698000062 343 27af2fa4d0370999ebe8f3266686c889 ""
+  "./main-blx.bib" 1698011669 343 27af2fa4d0370999ebe8f3266686c889 ""
   "d:/Programmi/texlive/2023/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1695142161 65484 b7949c47a88ed6dca66ebc7a04577312 ""
-  "main.aux" 1698000062 8451 34c09bdbb88c407e46abf12a47c95533 "lualatex"
+  "main.aux" 1698011669 8452 151082c8c5ff128069150ac4c8737e99 "lualatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["lualatex"] 1698000058 "d:/Utenti/filip/Desktop/Template tesi UniPD DEI/main.tex" "main.pdf" "main" 1698000064 0
+["lualatex"] 1698011660 "d:/Utenti/filip/Desktop/Template tesi UniPD DEI/main.tex" "main.pdf" "main" 1698011672 0
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc" 1695821450 81774 d334f26904380276b6dfd9643f7f4ae3 ""
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1695820460 128301 b1f542bc73988516a1e248fd76bfba95 ""
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1695820458 127672 ff0c9a9c5b35a411b958ad4096f5f327 ""
@@ -21,9 +21,9 @@
   "Capitoli/conclusioni.tex" 1697479516 23 c8c75e375351282ff7017e783dd72d90 ""
   "Capitoli/dedica.tex" 1697999653 110 b03c51e4538f48750534947c6851226d ""
   "Capitoli/frontespizio.tex" 1697479516 1679 c2743898e1257f7a2377fde249aebe57 ""
-  "Capitoli/introduzione.tex" 1698000058 4988 adebfc7cd3468bb9706689408ce8cf4b ""
+  "Capitoli/introduzione.tex" 1698011657 4984 13d4fdf35af8db4056390ba21066d28a ""
   "Capitoli/metodiAppresi.tex" 1697479517 146 7c4f224d6093e277af1fb3d8687dba60 ""
-  "Capitoli/metodiTradizionali.tex" 1697999653 5761 5203ce2fa33562377a925e50d234e12f ""
+  "Capitoli/metodiTradizionali.tex" 1698011657 5748 3607710c39275487e0f9deb814724456 ""
   "Capitoli/sviluppiFuturi.tex" 1697479517 154 1e1c7be861b150af9fbff43c46fa1843 ""
   "Capitoli/valutazionePrestazioni.tex" 1697479517 227 fcfbc6be68388b33868f7a4b4e052737 ""
   "Immagini/IMAGES/BPG/IMG0004.png" 1697999653 4564135 4f42ae36d8d3c65cee0118297ab648a8 ""
@@ -260,15 +260,15 @@
   "d:/Programmi/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1695146295 4721919 5d132e5078685bc79402eb1a8b5d774b ""
   "d:/Programmi/texlive/2023/texmf-var/tex/generic/config/language.dat" 1695146274 7105 12e4703d4ac7256ecaed51d3bb54e0c1 ""
   "d:/Programmi/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt" 1695146401 12205426 869d514bc48e23151b44734e7161a0f3 ""
-  "d:/Utenti/filip/Desktop/Template tesi UniPD DEI/main.tex" 1697999654 4854 8e941873e1da181030fe978f5a73147f ""
-  "main.aux" 1698000062 8451 34c09bdbb88c407e46abf12a47c95533 "lualatex"
-  "main.bbl" 1697999869 7775 1b75b283b9afc5ba00902364340d85f3 "bibtex main"
-  "main.lof" 1698000062 820 f3439fba6f06e42afd35e1c277412e99 "lualatex"
-  "main.out" 1698000062 1630 6f787208bd0391d4d3c03d263c637ec7 "lualatex"
-  "main.run.xml" 1698000062 2656 2acb9623ba9168458e0beafc4da3ef76 "lualatex"
-  "main.tex" 1697999654 4854 8e941873e1da181030fe978f5a73147f ""
-  "main.toc" 1698000062 2012 3880904645cb1164640ce0776916b8df "lualatex"
-  "pdfa.xmpi" 1698000060 5042 b8260386679c706d440d61d29cf129c7 "lualatex"
+  "d:/Utenti/filip/Desktop/Template tesi UniPD DEI/main.tex" 1698011657 4866 ce25fe642c1204919598f4b1a04e8e36 ""
+  "main.aux" 1698011669 8452 151082c8c5ff128069150ac4c8737e99 "lualatex"
+  "main.bbl" 1698001658 7775 1b75b283b9afc5ba00902364340d85f3 "bibtex main"
+  "main.lof" 1698011669 818 e18b5b550771e16f1f917f30a43e5458 "lualatex"
+  "main.out" 1698011669 1630 6f787208bd0391d4d3c03d263c637ec7 "lualatex"
+  "main.run.xml" 1698011669 2656 2acb9623ba9168458e0beafc4da3ef76 "lualatex"
+  "main.tex" 1698011657 4866 ce25fe642c1204919598f4b1a04e8e36 ""
+  "main.toc" 1698011669 2012 3880904645cb1164640ce0776916b8df "lualatex"
+  "pdfa.xmpi" 1698011666 5042 82450adbcb3aabf86b2b3ebea12d2c76 "lualatex"
   (generated)
   "main-blx.bib"
   "main.aux"
