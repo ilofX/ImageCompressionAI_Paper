@@ -55,8 +55,7 @@
     \field{pages}{4194\bibrangedash 4211}
     \field{title}{Learning end-to-end lossy image compression: A benchmark}
     \field{volume}{44}
-    \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine
-  Intelligence}
+    \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
     \field{year}{2021}
   \endentry
 
@@ -95,8 +94,7 @@
     \field{pages}{135\bibrangedash 153}
     \field{title}{Image compression using neural networks: a review}
     \field{volume}{17}
-    \field{journaltitle}{International Journal of Online and Biomedical
-  Engineering (iJOE)}
+    \field{journaltitle}{International Journal of Online and Biomedical Engineering (iJOE)}
     \field{year}{2021}
   \endentry
 
@@ -272,11 +270,9 @@
     \endverb
     \field{number}{10}
     \field{pages}{3736\bibrangedash 3764}
-    \field{title}{Overview of the Versatile Video Coding (VVC) Standard and its
-  Applications}
+    \field{title}{Overview of the Versatile Video Coding (VVC) Standard and its Applications}
     \field{volume}{31}
-    \field{journaltitle}{IEEE Transactions on Circuits and Systems for Video
-  Technology}
+    \field{journaltitle}{IEEE Transactions on Circuits and Systems for Video Technology}
     \field{year}{2021}
   \endentry
 \enddatalist
