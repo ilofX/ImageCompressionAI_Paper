@@ -22,6 +22,7 @@
 \usepackage{subcaption}                         % per le sottodidascalie
 \usepackage{svg}                                % per inserire file SVG
 \usepackage{float}                              % per posizionare le immagini esattamente come appaiono nel testo
+\usepackage{listings}                           % per inserire spezzoni di codice formattati in modo corretto
 
 \usepackage[italian]{babel}
 \selectlanguage{italian}
@@ -45,7 +46,7 @@
 %\newcommand{\assistantsupervisor}{Cognome Nome}
 
 \begin{document}
-    \pagenumbering{roman}
+    \pagenumbering{Roman}
     \pagestyle{empty} % per le prime pagine, non mostrare il numero di pagina
 
     \input{Capitoli/frontespizio}
@@ -74,7 +75,7 @@
     \cleardoublepage 
 
     \pagenumbering{arabic} % per assicurarsi che la numerazione araba cominci col primo capitolo 
-    \setcounter{figure}{0} 
+    \setcounter{figure}{0} % per resettare il contatore delle figure
     
     \input{Capitoli/introduzione}
     \input{Capitoli/metodiTradizionali}
