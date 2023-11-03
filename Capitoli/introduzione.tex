@@ -8,7 +8,7 @@ Per concludere vorremmo fornire alcuni spunti che potrebbero favorire l’adozio
 Iniziamo fornendo una spiegazione di cosa sia la compressione. La compressione è un processo che mira a minimizzare il numero di bit utilizzati per rappresentare una certa informazione senza intaccarne drasticamente la qualità. Questo obbiettivo viene raggiunto riducendo le ridondanze ed eliminando i dati non necessari.
 Tutti i framework di compressione consistono in una coppia codificatore-decodificatore. Data un’immagine da comprimere $x$ il codificatore, composto da una trasformata $\epsilon$ e una funzione di quantizzazione $Q$, può essere espresso con la seguente formulazione.\\
 \begin{equation}\label{eq:eqCondificatore}
-    y = Q(\epsilon (x;\theta_{\epsilon}))
+    y = Q(\epsilon(x;\theta_{\epsilon}))
 \end{equation}
 Dove $\theta_{\epsilon}$ denota i parametri del codificatore.
 Per riottenere la rappresentazione dell’immagine il decodificatore ricostruisce l’immagine $\hat{x}$ dal codice $y$ nel seguente modo.\\

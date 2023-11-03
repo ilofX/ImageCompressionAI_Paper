@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.19)  2 NOV 2023 18:03
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.19)  3 NOV 2023 18:18
  system commands enabled.
  file:line:error style messages enabled.
 **"d:/Utenti/filip/Desktop/Template tesi UniPD DEI/main.tex"
@@ -1284,28 +1284,36 @@ Package luatex.def Info: Immagini/logo_dei.pdf  used on input line 11.
 ] (./Capitoli/dedica.tex) [3] [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 62--68
+Underfull \hbox (badness 10000) in paragraph at lines 63--69
 
  []
 
-[5
 
-] [6
+warning  (pdf backend): ignoring duplicate destination with the name 'page.I'
+[1
 
-] (./main.toc [7
+]
+warning  (pdf backend): ignoring duplicate destination with the name 'page.II'
+[2
+
+] (./main.toc
+warning  (pdf backend): ignoring duplicate destination with the name 'page.III'
+[3
 
 ])
 \tf@toc=\write9
 
 \openout9 = main.toc
- [8] (./main.lof)
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.IV'
+[4] (./main.lof)
 \tf@lof=\write10
 
 \openout10 = main.lof
- [9
+ [5
 
 
-] [10
+] [6
 
 ] (./Capitoli/introduzione.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--10
@@ -1322,22 +1330,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--15
 
  []
 
-<Immagini/LossyCompressorDiagram.png, id=224, 603.25375pt x 221.82875pt>
+<Immagini/LossyCompressorDiagram.png, id=229, 763.85374pt x 282.05376pt>
 File: Immagini/LossyCompressorDiagram.png Graphic file (type png)
 <use Immagini/LossyCompressorDiagram.png>
 Package luatex.def Info: Immagini/LossyCompressorDiagram.png  used on input line 27.
-(luatex.def)             Requested size: 364.19667pt x 133.92078pt.
+(luatex.def)             Requested size: 364.19667pt x 134.48045pt.
 ) (./Capitoli/metodiTradizionali.tex [2] [3<./Immagini/LossyCompressorDiagram.png>] [4
 
 ]
 Capitolo 1.
 [5] [6]
-<Immagini/IMAGES/PNG/IMG0004.png, id=269, 2055.68pt x 3083.52pt>
+<Immagini/IMAGES/PNG/IMG0004.png, id=274, 2055.68pt x 3083.52pt>
 File: Immagini/IMAGES/PNG/IMG0004.png Graphic file (type png)
 <use Immagini/IMAGES/PNG/IMG0004.png>
 Package luatex.def Info: Immagini/IMAGES/PNG/IMG0004.png  used on input line 28.
 (luatex.def)             Requested size: 136.57462pt x 204.8586pt.
-<Immagini/IMAGES/JPEG/IMG0004.png, id=270, 2055.68pt x 3083.52pt>
+<Immagini/IMAGES/JPEG/IMG0004.png, id=275, 2055.68pt x 3083.52pt>
 File: Immagini/IMAGES/JPEG/IMG0004.png Graphic file (type png)
 <use Immagini/IMAGES/JPEG/IMG0004.png>
 Package luatex.def Info: Immagini/IMAGES/JPEG/IMG0004.png  used on input line 34.
@@ -1346,7 +1354,7 @@ File: Immagini/IMAGES/PNG/IMG0004.png Graphic file (type png)
 <use Immagini/IMAGES/PNG/IMG0004.png>
 Package luatex.def Info: Immagini/IMAGES/PNG/IMG0004.png  used on input line 45.
 (luatex.def)             Requested size: 136.57462pt x 204.8586pt.
-<Immagini/IMAGES/JPEG2000/IMG0004.png, id=271, 2055.68pt x 3083.52pt>
+<Immagini/IMAGES/JPEG2000/IMG0004.png, id=276, 2055.68pt x 3083.52pt>
 File: Immagini/IMAGES/JPEG2000/IMG0004.png Graphic file (type png)
 <use Immagini/IMAGES/JPEG2000/IMG0004.png>
 Package luatex.def Info: Immagini/IMAGES/JPEG2000/IMG0004.png  used on input line 51.
@@ -1355,7 +1363,7 @@ File: Immagini/IMAGES/PNG/IMG0004.png Graphic file (type png)
 <use Immagini/IMAGES/PNG/IMG0004.png>
 Package luatex.def Info: Immagini/IMAGES/PNG/IMG0004.png  used on input line 62.
 (luatex.def)             Requested size: 136.57462pt x 204.8586pt.
-<Immagini/IMAGES/BPG/IMG0004.png, id=272, 2055.68pt x 3083.52pt>
+<Immagini/IMAGES/BPG/IMG0004.png, id=277, 2055.68pt x 3083.52pt>
 File: Immagini/IMAGES/BPG/IMG0004.png Graphic file (type png)
 <use Immagini/IMAGES/BPG/IMG0004.png>
 Package luatex.def Info: Immagini/IMAGES/BPG/IMG0004.png  used on input line 68.
@@ -1364,7 +1372,7 @@ File: Immagini/IMAGES/PNG/IMG0004.png Graphic file (type png)
 <use Immagini/IMAGES/PNG/IMG0004.png>
 Package luatex.def Info: Immagini/IMAGES/PNG/IMG0004.png  used on input line 79.
 (luatex.def)             Requested size: 136.57462pt x 204.8586pt.
-<Immagini/IMAGES/VVC/IMG0004.png, id=273, 2055.68pt x 3083.52pt>
+<Immagini/IMAGES/VVC/IMG0004.png, id=278, 2055.68pt x 3083.52pt>
 File: Immagini/IMAGES/VVC/IMG0004.png Graphic file (type png)
 <use Immagini/IMAGES/VVC/IMG0004.png>
 Package luatex.def Info: Immagini/IMAGES/VVC/IMG0004.png  used on input line 85.
@@ -1388,7 +1396,7 @@ Capitolo 5.
 ) [15] [16
 
 ]
-Underfull \hbox (badness 1062) in paragraph at lines 88--88
+Underfull \hbox (badness 1062) in paragraph at lines 89--89
 []\TU/TimesNewRoman(0)/m/n/12 G. Wal-la-ce, «  The JPEG still pic-tu-re com-pres-sion stan-dard,» \TU/TimesNewRoman(0)/m/it/12 IEEE Tran-sac-tions on
  []
 
@@ -1416,18 +1424,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 37207 strings out of 477259
+ 37203 strings out of 477259
  100000,1977958 words of node,token memory allocated
  652 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 25 attribute, 67 glue_spec, 14 attribute_list, 2 write, 1 pdf_action nodes
-   avail lists: 1:2,2:842,3:276,4:90,5:225,6:86,7:5977,8:39,9:414,10:37,11:944
+   avail lists: 1:2,2:842,3:276,4:90,5:225,6:86,7:5977,8:39,9:412,10:37,11:944
  57625 multiletter control sequences out of 65536+600000
  54 fonts using 20094695 bytes
- 94i,8n,88p,1926b,3437s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,8n,88p,1926b,3435s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/Programmi/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf><c:/Windows/Fonts/timesi.ttf><c:/Windows/Fonts/timesbd.ttf><c:/Windows/Fonts/times.ttf><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (27 pages, 27001308 bytes).
+Output written on main.pdf (27 pages, 27155284 bytes).
 
-PDF statistics: 370 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 131072)
+PDF statistics: 375 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 131072)
  247 words of extra memory for PDF output out of 10000 (max. 100000000)
 
