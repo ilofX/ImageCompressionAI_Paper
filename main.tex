@@ -23,6 +23,10 @@
 \usepackage{svg}                                % per inserire file SVG
 \usepackage{float}                              % per posizionare le immagini esattamente come appaiono nel testo
 \usepackage{listings}                           % per inserire spezzoni di codice formattati in modo corretto
+\usepackage{amssymb}                            % for \mathfrak and \mathbb
+\usepackage{booktabs}                           % per formatazione tabelle \midrule
+\usepackage{graphicx}                           % per scalare tabella in base al testo \resizebox{\textwidth}{!}{%
+\usepackage{adjustbox}                          % per scalatura spezzoni di codice \begin{adjustbox}{max width=\textwidth}
 
 \usepackage[italian]{babel}
 \selectlanguage{italian}
@@ -80,7 +84,7 @@
     
     \input{Capitoli/introduzione}
     \input{Capitoli/metodiTradizionali}
-    \input{Capitoli/metodiAppresi}
+    \input{Capitoli/metodiIntelligenti}
     \input{Capitoli/valutazionePrestazioni}
     \input{Capitoli/sviluppiFuturi}
     \input{Capitoli/conclusioni}

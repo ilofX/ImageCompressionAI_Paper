@@ -17,6 +17,45 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
+  \entry{sadeeq2021image}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SHT}{%
+         family={Sadeeq},
+         familyi={S\bibinitperiod},
+         given={Haval\bibnamedelima T},
+         giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=HTH}{%
+         family={Hameed},
+         familyi={H\bibinitperiod},
+         given={Thamer\bibnamedelima H},
+         giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=AAS}{%
+         family={Abdi},
+         familyi={A\bibinitperiod},
+         given={Abdo\bibnamedelima S},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=AAN}{%
+         family={Abdulfatah},
+         familyi={A\bibinitperiod},
+         given={Ayman\bibnamedelima N},
+         giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SHTHTHAAS+1}
+    \strng{fullhash}{SHTHTHAASAAN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{14}
+    \field{pages}{135\bibrangedash 153}
+    \field{title}{Image compression using neural networks: a review}
+    \field{volume}{17}
+    \field{journaltitle}{International Journal of Online and Biomedical Engineering (iJOE)}
+    \field{year}{2021}
+  \endentry
+
   \entry{hu2021learning}{article}{}
     \name{author}{4}{}{%
       {{hash=HY}{%
@@ -56,45 +95,6 @@
     \field{title}{Learning end-to-end lossy image compression: A benchmark}
     \field{volume}{44}
     \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
-    \field{year}{2021}
-  \endentry
-
-  \entry{sadeeq2021image}{article}{}
-    \name{author}{4}{}{%
-      {{hash=SHT}{%
-         family={Sadeeq},
-         familyi={S\bibinitperiod},
-         given={Haval\bibnamedelima T},
-         giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-      {{hash=HTH}{%
-         family={Hameed},
-         familyi={H\bibinitperiod},
-         given={Thamer\bibnamedelima H},
-         giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=AAS}{%
-         family={Abdi},
-         familyi={A\bibinitperiod},
-         given={Abdo\bibnamedelima S},
-         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=AAN}{%
-         family={Abdulfatah},
-         familyi={A\bibinitperiod},
-         given={Ayman\bibnamedelima N},
-         giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SHTHTHAAS+1}
-    \strng{fullhash}{SHTHTHAASAAN1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{14}
-    \field{pages}{135\bibrangedash 153}
-    \field{title}{Image compression using neural networks: a review}
-    \field{volume}{17}
-    \field{journaltitle}{International Journal of Online and Biomedical Engineering (iJOE)}
     \field{year}{2021}
   \endentry
 
@@ -274,6 +274,342 @@
     \field{volume}{31}
     \field{journaltitle}{IEEE Transactions on Circuits and Systems for Video Technology}
     \field{year}{2021}
+  \endentry
+
+  \entry{theis2017lossy}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TL}{%
+         family={Theis},
+         familyi={T\bibinitperiod},
+         given={Lucas},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SW}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Wenzhe},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Cunningham},
+         familyi={C\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HF}{%
+         family={Husz{\'a}r},
+         familyi={H\bibinitperiod},
+         given={Ferenc},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TLSWCA+1}
+    \strng{fullhash}{TLSWCAHF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Lossy image compression with compressive autoencoders}
+    \field{journaltitle}{arXiv preprint arXiv:1703.00395}
+    \field{year}{2017}
+  \endentry
+
+  \entry{balle2018variational}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BJ}{%
+         family={Ball{\'e}},
+         familyi={B\bibinitperiod},
+         given={Johannes},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Minnen},
+         familyi={M\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Saurabh},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HSJ}{%
+         family={Hwang},
+         familyi={H\bibinitperiod},
+         given={Sung\bibnamedelima Jin},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=JN}{%
+         family={Johnston},
+         familyi={J\bibinitperiod},
+         given={Nick},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJMDSS+1}
+    \strng{fullhash}{BJMDSSHSJJN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Variational image compression with a scale hyperprior}
+    \field{journaltitle}{arXiv preprint arXiv:1802.01436}
+    \field{year}{2018}
+  \endentry
+
+  \entry{mishra2022deep}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MD}{%
+         family={Mishra},
+         familyi={M\bibinitperiod},
+         given={Dipti},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SSK}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Satish\bibnamedelima Kumar},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=SRK}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Rajat\bibnamedelima Kumar},
+         giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{MDSSKSRK1}
+    \strng{fullhash}{MDSSKSRK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{108346}
+    \field{title}{Deep architectures for image compression: a critical review}
+    \field{volume}{191}
+    \field{journaltitle}{Signal Processing}
+    \field{year}{2022}
+  \endentry
+
+  \entry{minnen2018joint}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MD}{%
+         family={Minnen},
+         familyi={M\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Ball{\'e}},
+         familyi={B\bibinitperiod},
+         given={Johannes},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TGD}{%
+         family={Toderici},
+         familyi={T\bibinitperiod},
+         given={George\bibnamedelima D},
+         giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MDBJTGD1}
+    \strng{fullhash}{MDBJTGD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Joint autoregressive and hierarchical priors for learned image compression}
+    \field{volume}{31}
+    \field{journaltitle}{Advances in neural information processing systems}
+    \field{year}{2018}
+  \endentry
+
+  \entry{cheng2020learned}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=CZ}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Zhengxue},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Heming},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Takeuchi},
+         familyi={T\bibinitperiod},
+         given={Masaru},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Katto},
+         familyi={K\bibinitperiod},
+         given={Jiro},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CZSHTM+1}
+    \strng{fullhash}{CZSHTMKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the IEEE/CVF conference on computer vision and pattern recognition}
+    \field{pages}{7939\bibrangedash 7948}
+    \field{title}{Learned image compression with discretized gaussian mixture likelihoods and attention modules}
+    \field{year}{2020}
+  \endentry
+
+  \entry{wang2022neural}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=WD}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Dezhao},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=YW}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Wenhan},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={Yueyu},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Jiaying},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WDYWHY+1}
+    \strng{fullhash}{WDYWHYLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}
+    \field{pages}{17379\bibrangedash 17388}
+    \field{title}{Neural data-dependent transform for learned image compression}
+    \field{year}{2022}
+  \endentry
+
+  \entry{PillowLibrary}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=CJA}{%
+         family={Clark},
+         familyi={C\bibinitperiod},
+         given={Jeffrey\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=c}{%
+         family={contributors},
+         familyi={c\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJAc1}
+    \strng{fullhash}{CJAc1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://python-pillow.org/}}
+    \field{note}{Consultato: 17-10-2023}
+    \field{title}{Pillow, a PIL fork}
+  \endentry
+
+  \entry{KodakDataset}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=CEK}{%
+         family={Company},
+         familyi={C\bibinitperiod},
+         given={Eastman\bibnamedelima Kodak},
+         giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CEK1}
+    \strng{fullhash}{CEK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://r0k.us/graphics/kodak/}}
+    \field{note}{Consultato: 17-10-2023}
+    \field{title}{True Color Kodak Images}
+  \endentry
+
+  \entry{wang2003multiscale}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=WZ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Zhou},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=SEP}{%
+         family={Simoncelli},
+         familyi={S\bibinitperiod},
+         given={Eero\bibnamedelima P},
+         giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=BAC}{%
+         family={Bovik},
+         familyi={B\bibinitperiod},
+         given={Alan\bibnamedelima C},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Ieee}%
+    }
+    \strng{namehash}{WZSEPBAC1}
+    \strng{fullhash}{WZSEPBAC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{The Thrity-Seventh Asilomar Conference on Signals, Systems \& Computers, 2003}
+    \field{pages}{1398\bibrangedash 1402}
+    \field{title}{Multiscale structural similarity for image quality assessment}
+    \field{volume}{2}
+    \field{year}{2003}
+  \endentry
+
+  \entry{zhang2018unreasonable}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=ZR}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=IP}{%
+         family={Isola},
+         familyi={I\bibinitperiod},
+         given={Phillip},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=EAA}{%
+         family={Efros},
+         familyi={E\bibinitperiod},
+         given={Alexei\bibnamedelima A},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Shechtman},
+         familyi={S\bibinitperiod},
+         given={Eli},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=WO}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Oliver},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZRIPEAA+1}
+    \strng{fullhash}{ZRIPEAASEWO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the IEEE conference on computer vision and pattern recognition}
+    \field{pages}{586\bibrangedash 595}
+    \field{title}{The unreasonable effectiveness of deep features as a perceptual metric}
+    \field{year}{2018}
   \endentry
 \enddatalist
 \endinput
