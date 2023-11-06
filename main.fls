@@ -390,6 +390,8 @@ INPUT ./Immagini/METRICS/MS-SSIM.png
 INPUT ./Immagini/METRICS/LPIPS.png
 INPUT ./Immagini/METRICS/LPIPS.png
 INPUT ./Capitoli/sviluppiFuturi.tex
+INPUT ./Immagini/slimCAE.png
+INPUT ./Immagini/slimCAE.png
 INPUT ./Capitoli/conclusioni.tex
 INPUT C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc
 INPUT ./main.aux
