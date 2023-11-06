@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1699122980 "main.aux" "main.bbl" "main" 1699123538 0
+["bibtex main"] 1699266025 "main.aux" "main.bbl" "main" 1699266031 0
   "./bibliografia.bib" 1699106005 6320 056455d4701e9453f19adafba9eb2f83 ""
-  "./main-blx.bib" 1699123536 343 27af2fa4d0370999ebe8f3266686c889 ""
+  "./main-blx.bib" 1699266030 343 27af2fa4d0370999ebe8f3266686c889 ""
   "d:/Programmi/texlive/2023/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1695142161 65484 b7949c47a88ed6dca66ebc7a04577312 ""
-  "main.aux" 1699123536 23312 ea605d766a864370e28d1b810547d86a "lualatex"
+  "main.aux" 1699266030 24451 3ce3ea18ed6d943f4a1496ea62647ca2 "lualatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["lualatex"] 1699123531 "d:/Utenti/filip/Desktop/Template tesi UniPD DEI/main.tex" "main.pdf" "main" 1699123538 0
+["lualatex"] 1699266025 "d:/Utenti/filip/Desktop/Template tesi UniPD DEI/main.tex" "main.pdf" "main" 1699266031 0
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc" 1695821450 81774 d334f26904380276b6dfd9643f7f4ae3 ""
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1695820460 128301 b1f542bc73988516a1e248fd76bfba95 ""
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1695820458 127672 ff0c9a9c5b35a411b958ad4096f5f327 ""
@@ -21,11 +21,11 @@
   "Capitoli/conclusioni.tex" 1697479516 23 c8c75e375351282ff7017e783dd72d90 ""
   "Capitoli/dedica.tex" 1699105595 1660 ae21be7432d63af2c07d366b5a2d07f6 ""
   "Capitoli/frontespizio.tex" 1697479516 1679 c2743898e1257f7a2377fde249aebe57 ""
-  "Capitoli/introduzione.tex" 1699123189 5354 07c02fe03950ec19c9a81ebd5ef4ee92 ""
-  "Capitoli/metodiIntelligenti.tex" 1699123466 26050 fd0e70be2b311a77e69a46364fe81308 ""
-  "Capitoli/metodiTradizionali.tex" 1699102937 7255 ea775dc986d6ea6713be8e0a3eb2830f ""
+  "Capitoli/introduzione.tex" 1699261813 5337 66809ace2774065d64619cf06c0b007e ""
+  "Capitoli/metodiIntelligenti.tex" 1699264285 25992 779b91a2358cae13cb3c2cc369d746b6 ""
+  "Capitoli/metodiTradizionali.tex" 1699262259 7246 7b1a1679a53a0e7c5fb487a7ff0a3f13 ""
   "Capitoli/sviluppiFuturi.tex" 1697479517 154 1e1c7be861b150af9fbff43c46fa1843 ""
-  "Capitoli/valutazionePrestazioni.tex" 1699123531 21331 77a8f4a3074c08ca983b41ea0ca18af0 ""
+  "Capitoli/valutazionePrestazioni.tex" 1699266018 21185 e1e118d6236d11bdf7b2107ee378136b ""
   "Immagini/Autoencoder_scheme.png" 1698920933 235538 15b3b24c1fac395eeeadf887cc201486 ""
   "Immagini/Ballé2018_Rete.png" 1698675226 91643 c222ae7438a42e486194b19947746f8a ""
   "Immagini/Cheng2020_AttnModuleA.png" 1698867675 30412 168e9fd86e5a1e7ee0403ea6403f4227 ""
@@ -350,14 +350,14 @@
   "d:/Programmi/texlive/2023/texmf-var/tex/generic/config/language.dat" 1695146274 7105 12e4703d4ac7256ecaed51d3bb54e0c1 ""
   "d:/Programmi/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt" 1695146401 12205426 869d514bc48e23151b44734e7161a0f3 ""
   "d:/Utenti/filip/Desktop/Template tesi UniPD DEI/main.tex" 1699107378 5451 611eff59b8d1ff65ae35f534a31071e3 ""
-  "main.aux" 1699123536 23312 ea605d766a864370e28d1b810547d86a "lualatex"
-  "main.bbl" 1699122980 17609 c6a30f25412bcc851b7ae28f21126229 "bibtex main"
-  "main.lof" 1699123536 2674 115da2ad1f91d1db4f36519e12f92321 "lualatex"
-  "main.out" 1699123536 1797 aaec67f5c68938c4ff268d431fcb8e1e "lualatex"
-  "main.run.xml" 1699123536 2656 2acb9623ba9168458e0beafc4da3ef76 "lualatex"
+  "main.aux" 1699266030 24451 3ce3ea18ed6d943f4a1496ea62647ca2 "lualatex"
+  "main.bbl" 1699266025 19268 c244cc701edb153b0b0e8ba7bb7ec13a "bibtex main"
+  "main.lof" 1699266030 2673 97baa33451ac3c45e1b1ff73a695ec4a "lualatex"
+  "main.out" 1699266030 1797 aaec67f5c68938c4ff268d431fcb8e1e "lualatex"
+  "main.run.xml" 1699266030 2656 2acb9623ba9168458e0beafc4da3ef76 "lualatex"
   "main.tex" 1699107378 5451 611eff59b8d1ff65ae35f534a31071e3 ""
-  "main.toc" 1699123536 2185 8e11500dbc58e25036a928cd38e49fc7 "lualatex"
-  "pdfa.xmpi" 1699123532 5042 14bddaa2d4c3574e7feaf94a816deeed "lualatex"
+  "main.toc" 1699266030 2186 3c8eb433db64f219f45e9e425f4927b7 "lualatex"
+  "pdfa.xmpi" 1699266026 5042 7fb69ae74a4be55d41848170ed955183 "lualatex"
   (generated)
   "main-blx.bib"
   "main.aux"

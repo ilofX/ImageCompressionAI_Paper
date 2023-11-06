@@ -516,6 +516,62 @@
     \field{title}{Pillow, a PIL fork}
   \endentry
 
+  \entry{OpenJPEGLibrary}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=dLU}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Louvain},
+         familyi={L\bibinitperiod},
+         given={Université},
+         giveni={U\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LUd1}
+    \strng{fullhash}{LUd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://www.openjpeg.org/}}
+    \field{note}{Consultato: 17-10-2023}
+    \field{title}{OpenJPEG}
+  \endentry
+
+  \entry{VVCLibrary}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=HF}{%
+         family={HHI},
+         familyi={H\bibinitperiod},
+         given={Fraunhofer},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HF1}
+    \strng{fullhash}{HF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://www.hhi.fraunhofer.de/en/departments/vca/technologies-and-solutions/h266-vvc.html}}
+    \field{note}{Consultato: 17-10-2023}
+    \field{title}{H.266 / VVC}
+  \endentry
+
+  \entry{CompressAILibrary}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=ICI}{%
+         family={InterDigital\bibnamedelima Communications},
+         familyi={I\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={Inc.},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ICI1}
+    \strng{fullhash}{ICI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://interdigitalinc.github.io/CompressAI/}}
+    \field{note}{Consultato: 17-10-2023}
+    \field{title}{CompressAI}
+  \endentry
+
   \entry{KodakDataset}{misc}{}
     \name{author}{1}{}{%
       {{hash=CEK}{%
