@@ -568,7 +568,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://interdigitalinc.github.io/CompressAI/}}
-    \field{note}{Consultato: 17-10-2023}
+    \field{note}{Consultato: 25-10-2023}
     \field{title}{CompressAI}
   \endentry
 
@@ -666,6 +666,24 @@
     \field{pages}{586\bibrangedash 595}
     \field{title}{The unreasonable effectiveness of deep features as a perceptual metric}
     \field{year}{2018}
+  \endentry
+
+  \entry{CodeImagecompressionAI}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=SF}{%
+         family={Stella},
+         familyi={S\bibinitperiod},
+         given={Filippo},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SF1}
+    \strng{fullhash}{SF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://github.com/ilofX/ImageCompressionAI}}
+    \field{note}{Consultato: 07-11-2023}
+    \field{title}{Image Compression AI}
   \endentry
 
   \entry{balle2018efficient}{inproceedings}{}

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.19)  7 NOV 2023 15:36
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.19)  7 NOV 2023 15:59
  system commands enabled.
  file:line:error style messages enabled.
 **"d:/Utenti/filip/Desktop/Template tesi UniPD DEI/main.tex"
@@ -1510,14 +1510,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--29
 
 [6]
 warning  (file Immagini/IMAGES/PNG_IMG0004.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.6', but at most version '1.4' allowed
-<Immagini/IMAGES/PNG_IMG0004.pdf, id=316, 2055.68pt x 3083.52pt>
+<Immagini/IMAGES/PNG_IMG0004.pdf, id=315, 2055.68pt x 3083.52pt>
 File: Immagini/IMAGES/PNG_IMG0004.pdf Graphic file (type pdf)
 <use Immagini/IMAGES/PNG_IMG0004.pdf>
 Package luatex.def Info: Immagini/IMAGES/PNG_IMG0004.pdf  used on input line 33.
 (luatex.def)             Requested size: 136.57462pt x 204.8586pt.
 
 warning  (file Immagini/IMAGES/JPEG_1_IMG0004.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.6', but at most version '1.4' allowed
-<Immagini/IMAGES/JPEG_1_IMG0004.pdf, id=317, 2055.68pt x 3083.52pt>
+<Immagini/IMAGES/JPEG_1_IMG0004.pdf, id=316, 2055.68pt x 3083.52pt>
 File: Immagini/IMAGES/JPEG_1_IMG0004.pdf Graphic file (type pdf)
 <use Immagini/IMAGES/JPEG_1_IMG0004.pdf>
 Package luatex.def Info: Immagini/IMAGES/JPEG_1_IMG0004.pdf  used on input line 39.
@@ -1528,7 +1528,7 @@ Package luatex.def Info: Immagini/IMAGES/PNG_IMG0004.pdf  used on input line 50.
 (luatex.def)             Requested size: 136.57462pt x 204.8586pt.
 
 warning  (file Immagini/IMAGES/JPEG2000_2_IMG0004.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.6', but at most version '1.4' allowed
-<Immagini/IMAGES/JPEG2000_2_IMG0004.pdf, id=318, 2055.68pt x 3083.52pt>
+<Immagini/IMAGES/JPEG2000_2_IMG0004.pdf, id=317, 2055.68pt x 3083.52pt>
 File: Immagini/IMAGES/JPEG2000_2_IMG0004.pdf Graphic file (type pdf)
 <use Immagini/IMAGES/JPEG2000_2_IMG0004.pdf>
 Package luatex.def Info: Immagini/IMAGES/JPEG2000_2_IMG0004.pdf  used on input line 56.
@@ -1542,7 +1542,7 @@ Package luatex.def Info: Immagini/IMAGES/PNG_IMG0004.pdf  used on input line 67.
 (luatex.def)             Requested size: 136.57462pt x 204.8586pt.
 
 warning  (file Immagini/IMAGES/BPG_3_IMG0004.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.6', but at most version '1.4' allowed
-<Immagini/IMAGES/BPG_3_IMG0004.pdf, id=319, 2055.68pt x 3083.52pt>
+<Immagini/IMAGES/BPG_3_IMG0004.pdf, id=318, 2055.68pt x 3083.52pt>
 File: Immagini/IMAGES/BPG_3_IMG0004.pdf Graphic file (type pdf)
 <use Immagini/IMAGES/BPG_3_IMG0004.pdf>
 Package luatex.def Info: Immagini/IMAGES/BPG_3_IMG0004.pdf  used on input line 73.
@@ -1556,7 +1556,7 @@ Package luatex.def Info: Immagini/IMAGES/PNG_IMG0004.pdf  used on input line 84.
 (luatex.def)             Requested size: 136.57462pt x 204.8586pt.
 
 warning  (file Immagini/IMAGES/VVC_2_IMG0004.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.6', but at most version '1.4' allowed
-<Immagini/IMAGES/VVC_2_IMG0004.pdf, id=320, 2055.68pt x 3083.52pt>
+<Immagini/IMAGES/VVC_2_IMG0004.pdf, id=319, 2055.68pt x 3083.52pt>
 File: Immagini/IMAGES/VVC_2_IMG0004.pdf Graphic file (type pdf)
 <use Immagini/IMAGES/VVC_2_IMG0004.pdf>
 Package luatex.def Info: Immagini/IMAGES/VVC_2_IMG0004.pdf  used on input line 90.
@@ -1587,7 +1587,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--39
 
  []
 
-<Immagini/Ballé2018_Rete.png, id=380, 289.08pt x 168.63pt>
+<Immagini/Ballé2018_Rete.png, id=382, 289.08pt x 168.63pt>
 File: Immagini/Ballé2018_Rete.png Graphic file (type png)
 <use Immagini/Ballé2018_Rete.png>
 Package luatex.def Info: Immagini/Ballé2018_Rete.png  used on input line 53.
@@ -1611,7 +1611,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--91
 Underfull \vbox (badness 2469) has occurred while \output is active []
 
  [16]
-<Immagini/Cheng2020_Rete.png, id=427, 517.935pt x 156.585pt>
+<Immagini/Cheng2020_Rete.png, id=429, 517.935pt x 156.585pt>
 File: Immagini/Cheng2020_Rete.png Graphic file (type png)
 <use Immagini/Cheng2020_Rete.png>
 Package luatex.def Info: Immagini/Cheng2020_Rete.png  used on input line 105.
@@ -1622,12 +1622,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--112
  []
 
 [17<./Immagini/Cheng2020_Rete.png>]
-<Immagini/Cheng2020_AttnModuleA.png, id=441, 240.9pt x 40.953pt>
+<Immagini/Cheng2020_AttnModuleA.png, id=443, 240.9pt x 40.953pt>
 File: Immagini/Cheng2020_AttnModuleA.png Graphic file (type png)
 <use Immagini/Cheng2020_AttnModuleA.png>
 Package luatex.def Info: Immagini/Cheng2020_AttnModuleA.png  used on input line 116.
 (luatex.def)             Requested size: 273.14923pt x 46.44005pt.
-<Immagini/Cheng2020_AttnModuleB.png, id=442, 240.9pt x 40.953pt>
+<Immagini/Cheng2020_AttnModuleB.png, id=444, 240.9pt x 40.953pt>
 File: Immagini/Cheng2020_AttnModuleB.png Graphic file (type png)
 <use Immagini/Cheng2020_AttnModuleB.png>
 Package luatex.def Info: Immagini/Cheng2020_AttnModuleB.png  used on input line 122.
@@ -1661,22 +1661,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--144
 Underfull \vbox (badness 2856) has occurred while \output is active []
 
  [18<./Immagini/Cheng2020_AttnModuleA.png><./Immagini/Cheng2020_AttnModuleB.png>]
-<Immagini/Wang2022_Rete.png, id=460, 211.992pt x 168.63pt>
+<Immagini/Wang2022_Rete.png, id=462, 211.992pt x 168.63pt>
 File: Immagini/Wang2022_Rete.png Graphic file (type png)
 <use Immagini/Wang2022_Rete.png>
 Package luatex.def Info: Immagini/Wang2022_Rete.png  used on input line 150.
 (luatex.def)             Requested size: 273.14923pt x 217.29944pt.
-<Immagini/Wang2022_SyntaxGenerator.png, id=466, 139.722pt x 89.133pt>
+<Immagini/Wang2022_SyntaxGenerator.png, id=468, 139.722pt x 89.133pt>
 File: Immagini/Wang2022_SyntaxGenerator.png Graphic file (type png)
 <use Immagini/Wang2022_SyntaxGenerator.png>
 Package luatex.def Info: Immagini/Wang2022_SyntaxGenerator.png  used on input line 159.
 (luatex.def)             Requested size: 182.09486pt x 116.16527pt.
-<Immagini/Wang2022_WeightsGenerator.png, id=467, 134.904pt x 48.18pt>
+<Immagini/Wang2022_WeightsGenerator.png, id=469, 134.904pt x 48.18pt>
 File: Immagini/Wang2022_WeightsGenerator.png Graphic file (type png)
 <use Immagini/Wang2022_WeightsGenerator.png>
 Package luatex.def Info: Immagini/Wang2022_WeightsGenerator.png  used on input line 165.
 (luatex.def)             Requested size: 182.09486pt x 65.03941pt.
-<Immagini/Wang2022_Convolution.png, id=472, 963.6pt x 381.425pt>
+<Immagini/Wang2022_Convolution.png, id=474, 963.6pt x 381.425pt>
 File: Immagini/Wang2022_Convolution.png Graphic file (type png)
 <use Immagini/Wang2022_Convolution.png>
 Package luatex.def Info: Immagini/Wang2022_Convolution.png  used on input line 176.
@@ -1693,14 +1693,14 @@ Package luatex.def Info: Immagini/IMAGES/PNG_IMG0004.pdf  used on input line 187
 (luatex.def)             Requested size: 113.81102pt x 170.69981pt.
 
 warning  (file Immagini/IMAGES/mbt2018_3_IMG0004.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.6', but at most version '1.4' allowed
-<Immagini/IMAGES/mbt2018_3_IMG0004.pdf, id=496, 2055.68pt x 3083.52pt>
+<Immagini/IMAGES/mbt2018_3_IMG0004.pdf, id=498, 2055.68pt x 3083.52pt>
 File: Immagini/IMAGES/mbt2018_3_IMG0004.pdf Graphic file (type pdf)
 <use Immagini/IMAGES/mbt2018_3_IMG0004.pdf>
 Package luatex.def Info: Immagini/IMAGES/mbt2018_3_IMG0004.pdf  used on input line 193.
 (luatex.def)             Requested size: 113.81102pt x 170.69981pt.
 
 warning  (file Immagini/IMAGES/mbt2018_mean_3_IMG0004.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.6', but at most version '1.4' allowed
-<Immagini/IMAGES/mbt2018_mean_3_IMG0004.pdf, id=497, 2055.68pt x 3083.52pt>
+<Immagini/IMAGES/mbt2018_mean_3_IMG0004.pdf, id=499, 2055.68pt x 3083.52pt>
 File: Immagini/IMAGES/mbt2018_mean_3_IMG0004.pdf Graphic file (type pdf)
 <use Immagini/IMAGES/mbt2018_mean_3_IMG0004.pdf>
 Package luatex.def Info: Immagini/IMAGES/mbt2018_mean_3_IMG0004.pdf  used on input line 199.
@@ -1711,14 +1711,14 @@ Package luatex.def Info: Immagini/IMAGES/PNG_IMG0004.pdf  used on input line 210
 (luatex.def)             Requested size: 113.81102pt x 170.69981pt.
 
 warning  (file Immagini/IMAGES/cheng2020_attn_3_IMG0004.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.6', but at most version '1.4' allowed
-<Immagini/IMAGES/cheng2020_attn_3_IMG0004.pdf, id=498, 2055.68pt x 3083.52pt>
+<Immagini/IMAGES/cheng2020_attn_3_IMG0004.pdf, id=500, 2055.68pt x 3083.52pt>
 File: Immagini/IMAGES/cheng2020_attn_3_IMG0004.pdf Graphic file (type pdf)
 <use Immagini/IMAGES/cheng2020_attn_3_IMG0004.pdf>
 Package luatex.def Info: Immagini/IMAGES/cheng2020_attn_3_IMG0004.pdf  used on input line 216.
 (luatex.def)             Requested size: 113.81102pt x 170.69981pt.
 
 warning  (file Immagini/IMAGES/cheng2020-anchor_3_IMG0004.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.6', but at most version '1.4' allowed
-<Immagini/IMAGES/cheng2020-anchor_3_IMG0004.pdf, id=499, 2055.68pt x 3083.52pt>
+<Immagini/IMAGES/cheng2020-anchor_3_IMG0004.pdf, id=501, 2055.68pt x 3083.52pt>
 File: Immagini/IMAGES/cheng2020-anchor_3_IMG0004.pdf Graphic file (type pdf)
 <use Immagini/IMAGES/cheng2020-anchor_3_IMG0004.pdf>
 Package luatex.def Info: Immagini/IMAGES/cheng2020-anchor_3_IMG0004.pdf  used on input line 222.
@@ -1825,56 +1825,56 @@ Overfull \hbox (34.36087pt too wide) in paragraph at lines 125--126
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--136
+Underfull \hbox (badness 10000) in paragraph at lines 132--137
 
  []
 
 [28]
-<Immagini/METRICS/times@0.07bpp.png, id=628, 1445.4pt x 722.7pt>
+<Immagini/METRICS/times@0.07bpp.png, id=632, 1445.4pt x 722.7pt>
 File: Immagini/METRICS/times@0.07bpp.png Graphic file (type png)
 <use Immagini/METRICS/times@0.07bpp.png>
-Package luatex.def Info: Immagini/METRICS/times@0.07bpp.png  used on input line 139.
+Package luatex.def Info: Immagini/METRICS/times@0.07bpp.png  used on input line 140.
 (luatex.def)             Requested size: 455.24411pt x 227.61862pt.
  [29<./Immagini/METRICS/times@0.07bpp.png>]
-<Immagini/METRICS/times@0.16bpp.png, id=635, 1445.4pt x 722.7pt>
+<Immagini/METRICS/times@0.16bpp.png, id=639, 1445.4pt x 722.7pt>
 File: Immagini/METRICS/times@0.16bpp.png Graphic file (type png)
 <use Immagini/METRICS/times@0.16bpp.png>
-Package luatex.def Info: Immagini/METRICS/times@0.16bpp.png  used on input line 146.
+Package luatex.def Info: Immagini/METRICS/times@0.16bpp.png  used on input line 147.
 (luatex.def)             Requested size: 455.24411pt x 227.61862pt.
-<Immagini/METRICS/times@0.21bpp.png, id=636, 1445.4pt x 722.7pt>
+<Immagini/METRICS/times@0.21bpp.png, id=640, 1445.4pt x 722.7pt>
 File: Immagini/METRICS/times@0.21bpp.png Graphic file (type png)
 <use Immagini/METRICS/times@0.21bpp.png>
-Package luatex.def Info: Immagini/METRICS/times@0.21bpp.png  used on input line 153.
+Package luatex.def Info: Immagini/METRICS/times@0.21bpp.png  used on input line 154.
 (luatex.def)             Requested size: 455.24411pt x 227.61862pt.
  [30<./Immagini/METRICS/times@0.16bpp.png><./Immagini/METRICS/times@0.21bpp.png>]
-<Immagini/METRICS/times@0.34bpp.png, id=643, 1445.4pt x 722.7pt>
+<Immagini/METRICS/times@0.34bpp.png, id=647, 1445.4pt x 722.7pt>
 File: Immagini/METRICS/times@0.34bpp.png Graphic file (type png)
 <use Immagini/METRICS/times@0.34bpp.png>
-Package luatex.def Info: Immagini/METRICS/times@0.34bpp.png  used on input line 160.
+Package luatex.def Info: Immagini/METRICS/times@0.34bpp.png  used on input line 161.
 (luatex.def)             Requested size: 455.24411pt x 227.61862pt.
-<Immagini/METRICS/times@0.41bpp.png, id=644, 1445.4pt x 722.7pt>
+<Immagini/METRICS/times@0.41bpp.png, id=648, 1445.4pt x 722.7pt>
 File: Immagini/METRICS/times@0.41bpp.png Graphic file (type png)
 <use Immagini/METRICS/times@0.41bpp.png>
-Package luatex.def Info: Immagini/METRICS/times@0.41bpp.png  used on input line 167.
+Package luatex.def Info: Immagini/METRICS/times@0.41bpp.png  used on input line 168.
 (luatex.def)             Requested size: 455.24411pt x 227.61862pt.
  [31<./Immagini/METRICS/times@0.34bpp.png><./Immagini/METRICS/times@0.41bpp.png>]
-<Immagini/METRICS/PSNR.png, id=653, 722.7pt x 722.7pt>
+<Immagini/METRICS/PSNR.png, id=657, 722.7pt x 722.7pt>
 File: Immagini/METRICS/PSNR.png Graphic file (type png)
 <use Immagini/METRICS/PSNR.png>
-Package luatex.def Info: Immagini/METRICS/PSNR.png  used on input line 176.
+Package luatex.def Info: Immagini/METRICS/PSNR.png  used on input line 177.
 (luatex.def)             Requested size: 409.71692pt x 409.71571pt.
-<Immagini/METRICS/MS-SSIM.png, id=655, 722.7pt x 722.7pt>
+<Immagini/METRICS/MS-SSIM.png, id=659, 722.7pt x 722.7pt>
 File: Immagini/METRICS/MS-SSIM.png Graphic file (type png)
 <use Immagini/METRICS/MS-SSIM.png>
-Package luatex.def Info: Immagini/METRICS/MS-SSIM.png  used on input line 184.
+Package luatex.def Info: Immagini/METRICS/MS-SSIM.png  used on input line 185.
 (luatex.def)             Requested size: 409.71692pt x 409.71571pt.
-<Immagini/METRICS/LPIPS.png, id=657, 722.7pt x 722.7pt>
+<Immagini/METRICS/LPIPS.png, id=661, 722.7pt x 722.7pt>
 File: Immagini/METRICS/LPIPS.png Graphic file (type png)
 <use Immagini/METRICS/LPIPS.png>
-Package luatex.def Info: Immagini/METRICS/LPIPS.png  used on input line 192.
+Package luatex.def Info: Immagini/METRICS/LPIPS.png  used on input line 193.
 (luatex.def)             Requested size: 409.71692pt x 409.71571pt.
 ) (./Capitoli/sviluppiFuturi.tex
-Underfull \hbox (badness 10000) in paragraph at lines 172--1
+Underfull \hbox (badness 10000) in paragraph at lines 173--1
 
  []
 
@@ -1884,7 +1884,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--1
 Capitolo 4.
 
 Underfull \hbox (badness 1028) in paragraph at lines 5--7
-\TU/TimesNewRoman(0)/m/n/12 In una ri-cer-ca del 2018 Bal-lé in-tro-du-ce Spec-tral ADAM (SA-DAM) [[]21[]], un’al-ter-na-ti-va
+\TU/TimesNewRoman(0)/m/n/12 In una ri-cer-ca del 2018 Bal-lé in-tro-du-ce Spec-tral ADAM (SA-DAM) [[]22[]], un’al-ter-na-ti-va
  []
 
 
@@ -1932,7 +1932,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
-<Immagini/slimCAE.png, id=718, 271.0125pt x 230.8625pt>
+<Immagini/slimCAE.png, id=722, 271.0125pt x 230.8625pt>
 File: Immagini/slimCAE.png Graphic file (type png)
 <use Immagini/slimCAE.png>
 Package luatex.def Info: Immagini/slimCAE.png  used on input line 53.
@@ -1958,7 +1958,12 @@ Underfull \hbox (badness 1648) in paragraph at lines 93--93
 
 [41
 
-] [42] [43] (./main.aux)
+]
+Underfull \hbox (badness 7522) in paragraph at lines 93--93
+[]\TU/TimesNewRoman(0)/m/n/12 F. Stel-la, \TU/TimesNewRoman(0)/m/it/12 Ima-ge Com-pres-sion AI\TU/TimesNewRoman(0)/m/n/12 , []$\TU/lmtt/m/n/12 https : / / github . com / ilofX /
+ []
+
+[42] [43] (./main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1980,18 +1985,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45839 strings out of 477259
+ 45844 strings out of 477259
  125009,1977958 words of node,token memory allocated
- 1012 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 133 attribute, 67 glue_spec, 68 attribute_list, 2 write, 7 pdf_action nodes
-   avail lists: 1:7,2:1320,3:390,4:106,5:465,6:85,7:8385,8:89,9:2040,10:38,11:1336
- 65783 multiletter control sequences out of 65536+600000
+ 1024 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 135 attribute, 67 glue_spec, 69 attribute_list, 2 write, 8 pdf_action nodes
+   avail lists: 1:5,2:1335,3:385,4:107,5:465,6:86,7:8450,8:89,9:2040,10:38,11:1333
+ 65787 multiletter control sequences out of 65536+600000
  61 fonts using 21238575 bytes
  101i,16n,100p,1926b,3606s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/Programmi/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf><c:/Windows/Fonts/timesi.ttf><c:/Windows/Fonts/timesbd.ttf><c:/Windows/Fonts/times.ttf><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (53 pages, 4268547 bytes).
+Output written on main.pdf (53 pages, 4270002 bytes).
 
-PDF statistics: 859 PDF objects out of 1000 (max. 8388607)
- 202 named destinations out of 1000 (max. 131072)
+PDF statistics: 866 PDF objects out of 1000 (max. 8388607)
+ 203 named destinations out of 1000 (max. 131072)
  231 words of extra memory for PDF output out of 10000 (max. 100000000)
 
