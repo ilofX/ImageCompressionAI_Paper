@@ -136,45 +136,39 @@ L’ultimo livello di qualità invece si ha per $0.41bpp$ dove però non abbiamo
 
 \begin{figure}[!h]
     \centering
-    \begin{subfigure}[]{1\textwidth}
-        \includegraphics[width=\textwidth]{Immagini/METRICS/times@0.07bpp.png}
-        \caption{Tempi di compressione a 0.07 bpp}
-        \label{fig:times07}
-    \end{subfigure}
-    \label{fig:CompressionTimes1}
-\end{figure}
-\begin{figure}[!h]
-    \begin{subfigure}[]{1\textwidth}
-        \includegraphics[width=\textwidth]{Immagini/METRICS/times@0.16bpp.png}
-        \caption{Tempi di compressione a 0.16 bpp}
-        \label{fig:times16}
-    \end{subfigure}
-    \hspace*{0.5cm}
-    \begin{subfigure}[]{1\textwidth}
-        \includegraphics[width=\textwidth]{Immagini/METRICS/times@0.21bpp.png}
-        \caption{Tempi di compressione a 0.21 bpp}
-        \label{fig:times21}
-    \end{subfigure}
-    \label{fig:CompressionTimes2}
+    \includegraphics[width=1\textwidth]{Immagini/METRICS/times@0.07bpp.png}
+    \caption{Tempi di compressione a 0.07 bpp}
+    \label{fig:times07}
 \end{figure}
 \newpage
 \begin{figure}[!h]
-    \begin{subfigure}[]{1\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Immagini/METRICS/times@0.34bpp.png}
-        \caption{Tempi di compressione a 0.34 bpp}
-        \label{fig:times34}
-    \end{subfigure}
-    \hspace*{0.5cm}
-    \begin{subfigure}[]{1\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Immagini/METRICS/times@0.41bpp.png}
-        \caption{Tempi di compressione a 0.41 bpp}
-        \label{fig:times41}
-    \end{subfigure}
-    \label{fig:CompressionTimes3}
+    \centering
+    \includegraphics[width=1\textwidth]{Immagini/METRICS/times@0.16bpp.png}
+    \caption{Tempi di compressione a 0.16 bpp}
+    \label{fig:times16}
 \end{figure}
-\clearpage
+\hspace{0.5cm}
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{Immagini/METRICS/times@0.21bpp.png}
+    \caption{Tempi di compressione a 0.21 bpp}
+    \label{fig:times21}
+\end{figure}
+\newpage
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{Immagini/METRICS/times@0.34bpp.png}
+    \caption{Tempi di compressione a 0.34 bpp}
+    \label{fig:times34}
+\end{figure}
+\hspace{0.5cm}
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{Immagini/METRICS/times@0.41bpp.png}
+    \caption{Tempi di compressione a 0.41 bpp}
+    \label{fig:times41}
+\end{figure}
+\clearpage 
 Come possiamo osservare nei grafici i tempi di compressione delle reti aumentano all’aumentare della qualità, i tempi di compressione dei metodi tradizionali invece non variano sensibilmente all’aumentare della qualità. Il codec VVC costituisce però un’eccezione a questo comportamento costante dei metodi tradizionali, in quanto possiamo vedere che il tempo aumenta all’aumentare della qualità. Questo comportamento si ha per la complessità di H.266, in quanto deve trovare il miglior metodo di compressione tra quelli a sua disposizione.\\
 Passiamo ora a presentare le metriche di qualità dell’immagine, partiamo dal grafico del PSNR \ref{fig:PSNRGraph}, come possiamo vedere nel grafico, la migliore qualità di compressione si ha con il codec VVC, seguito poi da Cheng 2020, Ballé 2018, BPG, JPEG 2000 ed infine JPEG. H.266 si conferma quindi l’attuale stato dell’arte per la compressione di immagini osservando il grafico del PSNR, che ricordiamo essere una metrica oggettiva.\\
 \begin{figure}[!h]
