@@ -3,7 +3,7 @@ Negli ultimi anni abbiamo assistito ad uno sviluppo rapidissimo dell’intellige
 Anche l’ambito della computer vision e nello specifico della compressione ha seguito questo andamento, infatti negli ultimi anni sono state pubblicate numerose ricerche che vanno a proporre metodi sempre più efficienti per la compressione di immagini, appunto tramite l’uso di intelligenze artificiali.\\
 Le immagini naturali contengono al loro interno molte ridondanze spaziali che possono essere sfruttate per comprimere senza diminuire la qualità percepita. Le reti neurali sono eccellenti per questo compito, in quanto permettono di ridurre di molto le ridondanze ed identificare le regioni più significative, in modo da operare con maggiore precisione su esse.
 Partiamo quindi fornendo una rapida introduzione su cosa sia una rete neurale e quali sono i suoi componenti fondamentali.\\
-Il componente fondamentale di una rete neurale è l’unita di elaborazione dati chiamata neurone, e più neuroni sono connessi tra di loro tramite connessioni pesate. Solitamente le reti sono composte da più livelli di neuroni e più livelli ci sono più si dice che la rete è profonda. L’analogia con la biologia umana non è casuale, infatti le reti neurali cercano di riprodurre la struttura interna del cervello umano per poterne emulare i processi cognitivi. \cite{sadeeq2021image}\\
+Il componente fondamentale di una rete neurale è l’unita di elaborazione dati chiamata neurone, e più neuroni sono connessi tra di loro tramite connessioni pesate. Solitamente le reti sono composte da più livelli di neuroni e più livelli ci sono più si dice che la rete è profonda. L’analogia con la biologia umana non è casuale, infatti le reti neurali cercano di riprodurre la struttura interna del cervello umano per poterne emulare i processi cognitivi \cite{sadeeq2021image}.\\
 Per rendere utilizzabile una rete non è sufficiente crearla definendone la struttura ed altri parametri come le funzioni di attivazione, l’algoritmo di ottimizzazione, il learning rate ed altri iper parametri, Ma va addestrata per il compito specifico per la quale la volgiamo utilizzare. Durante la fase di addestramento vengono aggiustati i pesi relativi alle connessioni tra i vari neuroni, questi pesi vengono modificati fino a quando viene trovata la migliore configurazione che permette di raggiungere il miglior risultato possibile nel compito che ci interessa.\\
 Le reti neurali sono uno dei metodi più comunemente usati per compiti di regressione e classificazione \cite{sadeeq2021image}, il che le rende sfruttabili per cercare delle funzioni di regressione che permettano di comprimere le informazioni in delle loro rappresentazioni latenti più compresse.
 Durante gli anni si sono sviluppate molte tipologie di reti neurali che si differenziano per configurazione o per metodo di addestramento, le strutture che vengono maggiormente utilizzate sono CNN, GAN e Autoencoder. Dei primi due metodi forniremo una breve descrizione per illustrarne le differenze principali, mentre sugli Autoencoder ci concentreremo maggiormente in quanto oggetto di questo studio.
@@ -46,7 +46,7 @@ Lo sviluppo dei compressive autoencoder o CAE e le soluzioni proposte per render
 \subsection{Ballé 2018}
 Il primo metodo che andiamo ad analizzare è quello proposto nel 2018 da Ballé et al. \cite{minnen2018joint} che prosegue il lavoro di Ballè et al. del 2016 \cite{balle2018variational}, lavoro che ha ispirato anche la soluzione sopra descritta offerta da Theis \ref{eq:theisLinearApprox} un anno prima.\\
 Il metodo proposto da Ballé et al. nel 2018 utilizza un modello di probabilità misto a scala gaussiana o GSM dove i parametri di scala sono condizionati da un iperparametro. Questo modello permette l’addestramento end-to-end, ciò include anche l’ottimizzazione della rappresentazione quantizzata dell’iper parametro, del modello dell’entropia e dell’autoencoder principale.\\
-L’innovazione principale che questo modello porta è l’aggiunta dell’iper parametro compresso nell’informazione trasmessa, ciò permette al decodificatore di usare un modello dell’entropia condizionato dall’iper parametro. Questo consente di avere un modello per l’entropia dipendente dall’immagine.\\
+L’innovazione principale di questo modello è l’aggiunta dell’iper parametro nell’informazione trasmessa, ciò permette al decodificatore di usare un modello dell’entropia condizionato dall’iper parametro. Questo consente di avere un modello per l’entropia dipendente dall’immagine.\\
 L’immagine \ref{fig:balle2018Network} mostra l’architettura ad alto livello del modello di compressione, come si può osservare il modello sia composto da due sottoreti.
 \begin{figure}[!h]
     \centering
@@ -179,9 +179,9 @@ Questi parametri vengono utilizzati dalla rete di decodifica, come possiamo vede
 \end{figure}\\
 Il team di Wang et al. ha inoltre sviluppato un modulo aggiuntivo di post-processing, utile per i casi in cui è richiesta una ricostruzione più dettagliata, anche questa rete fa uso della rappresentazione neuro-sintattica per adattarsi maggiormente alle varie immagini. Grazie a questa aggiunta il team di Wang et al. ha riportato di aver superato anche il codec VVC, che attualmente rappresenta lo stato dell’arte per la compressione di immagini.\\
 Di questo modello non possiamo fornire degli esempi di compressione in quanto il team di Wang et al. \cite{wang2022neural} ha rilasciato il modello ma non la rete pre allenata e non avendo a disposizione dell'equipaggiamento adeguato per eseguire l'allenamento del modello, ci è stato impossibile utilizzare questa rete nei nostri esperimenti.\\
-\newpage
 
-\begin{figure}[t!]
+\vspace{6.5cm}
+\begin{figure}[!h]
     \centering
     \begin{subfigure}[]{0.25\textwidth}
         \includegraphics[width=\textwidth]{Immagini/IMAGES/PNG_IMG0004.pdf}
@@ -204,6 +204,7 @@ Di questo modello non possiamo fornire degli esempi di compressione in quanto il
     \label{fig:CompressionMbt2018}
 \end{figure}
 
+\newpage
 \begin{figure}[t!]
     \centering
     \begin{subfigure}[]{0.25\textwidth}
