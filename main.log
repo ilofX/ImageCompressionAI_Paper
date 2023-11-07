@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.19)  7 NOV 2023 15:32
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.19)  7 NOV 2023 15:36
  system commands enabled.
  file:line:error style messages enabled.
 **"d:/Utenti/filip/Desktop/Template tesi UniPD DEI/main.tex"
@@ -1942,9 +1942,6 @@ Underfull \vbox (badness 4518) has occurred while \output is active []
 
  [37] [38<./Immagini/slimCAE.png>]
 Capitolo 5.
-
-LaTeX Warning: Reference `fig:times07,fig:times16,fig:times21,fig:times34' on page 39 undefined on input line 2.
-
 )
 Underfull \hbox (badness 10000) in paragraph at lines 2--91
 
@@ -1983,18 +1980,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45840 strings out of 477259
+ 45839 strings out of 477259
  125009,1977958 words of node,token memory allocated
  1012 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 133 attribute, 67 glue_spec, 68 attribute_list, 2 write, 7 pdf_action nodes
    avail lists: 1:7,2:1320,3:390,4:106,5:465,6:85,7:8385,8:89,9:2040,10:38,11:1336
- 65784 multiletter control sequences out of 65536+600000
+ 65783 multiletter control sequences out of 65536+600000
  61 fonts using 21238575 bytes
  101i,16n,100p,1926b,3606s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/Programmi/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf><c:/Windows/Fonts/timesi.ttf><c:/Windows/Fonts/timesbd.ttf><c:/Windows/Fonts/times.ttf><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/Programmi/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (53 pages, 4267986 bytes).
+Output written on main.pdf (53 pages, 4268547 bytes).
 
-PDF statistics: 855 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 859 PDF objects out of 1000 (max. 8388607)
  202 named destinations out of 1000 (max. 131072)
  231 words of extra memory for PDF output out of 10000 (max. 100000000)
 

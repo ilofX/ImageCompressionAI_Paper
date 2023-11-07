@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1699367556 "main.aux" "main.bbl" "main" 1699367564 0
+["bibtex main"] 1699367556 "main.aux" "main.bbl" "main" 1699367787 0
   "./bibliografia.bib" 1699284473 7906 cab8589ba13fa0b29d83f45a2d9664ab ""
-  "./main-blx.bib" 1699367562 343 27af2fa4d0370999ebe8f3266686c889 ""
+  "./main-blx.bib" 1699367785 343 27af2fa4d0370999ebe8f3266686c889 ""
   "d:/Programmi/texlive/2023/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1695142161 65484 b7949c47a88ed6dca66ebc7a04577312 ""
-  "main.aux" 1699367562 27908 e05ab3d1bdeac0db79385f02fccd7da6 "lualatex"
+  "main.aux" 1699367785 27908 e05ab3d1bdeac0db79385f02fccd7da6 "lualatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["lualatex"] 1699367557 "d:/Utenti/filip/Desktop/Template tesi UniPD DEI/main.tex" "main.pdf" "main" 1699367564 0
+["lualatex"] 1699367779 "d:/Utenti/filip/Desktop/Template tesi UniPD DEI/main.tex" "main.pdf" "main" 1699367787 0
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc" 1695821450 81774 d334f26904380276b6dfd9643f7f4ae3 ""
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1695820460 128301 b1f542bc73988516a1e248fd76bfba95 ""
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1695820458 127672 ff0c9a9c5b35a411b958ad4096f5f327 ""
@@ -18,7 +18,7 @@
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/timesi.luc" 1695820461 538673 b06c1b29908cc8510d944684a65892fd ""
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1699106295 2712 0dbdbfe734b73417de8ddd248366953b ""
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1695820458 276259 8767c6ff49ef2596961507480e12ee89 ""
-  "Capitoli/conclusioni.tex" 1699367475 1903 1e876ef59f8a2a8641d8fb13efa03314 ""
+  "Capitoli/conclusioni.tex" 1699367779 1957 181a113fc24eeef3543ab2ad3ac7a704 ""
   "Capitoli/dedica.tex" 1699105595 1660 ae21be7432d63af2c07d366b5a2d07f6 ""
   "Capitoli/frontespizio.tex" 1697479516 1679 c2743898e1257f7a2377fde249aebe57 ""
   "Capitoli/introduzione.tex" 1699261813 5337 66809ace2774065d64619cf06c0b007e ""
@@ -351,14 +351,14 @@
   "d:/Programmi/texlive/2023/texmf-var/tex/generic/config/language.dat" 1695146274 7105 12e4703d4ac7256ecaed51d3bb54e0c1 ""
   "d:/Programmi/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt" 1695146401 12205426 869d514bc48e23151b44734e7161a0f3 ""
   "d:/Utenti/filip/Desktop/Template tesi UniPD DEI/main.tex" 1699266403 5435 eb7f26902291cc320a70420273c4a8cf ""
-  "main.aux" 1699367562 27908 e05ab3d1bdeac0db79385f02fccd7da6 "lualatex"
+  "main.aux" 1699367785 27908 e05ab3d1bdeac0db79385f02fccd7da6 "lualatex"
   "main.bbl" 1699367557 29076 d69f29a87054329ec2062ef40e4bf857 "bibtex main"
-  "main.lof" 1699367562 3434 34b2929302e5faf10dec9d5bc5fed7c9 "lualatex"
-  "main.out" 1699367562 1711 72cedcc014869b3c31c34c193a13a4ed "lualatex"
-  "main.run.xml" 1699367562 2656 2acb9623ba9168458e0beafc4da3ef76 "lualatex"
+  "main.lof" 1699367785 3434 34b2929302e5faf10dec9d5bc5fed7c9 "lualatex"
+  "main.out" 1699367785 1711 72cedcc014869b3c31c34c193a13a4ed "lualatex"
+  "main.run.xml" 1699367785 2656 2acb9623ba9168458e0beafc4da3ef76 "lualatex"
   "main.tex" 1699266403 5435 eb7f26902291cc320a70420273c4a8cf ""
-  "main.toc" 1699367562 2051 e4effe8ace076c49f65124b929e66249 "lualatex"
-  "pdfa.xmpi" 1699367558 5042 f62c013074286f90e36223a1380ffbb9 "lualatex"
+  "main.toc" 1699367785 2051 e4effe8ace076c49f65124b929e66249 "lualatex"
+  "pdfa.xmpi" 1699367781 5042 e3eff805a6cd6ed7b6b778bc0d810b80 "lualatex"
   (generated)
   "main-blx.bib"
   "main.aux"
