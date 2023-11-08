@@ -276,6 +276,41 @@
     \field{year}{2021}
   \endentry
 
+  \entry{mishra2022deep}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MD}{%
+         family={Mishra},
+         familyi={M\bibinitperiod},
+         given={Dipti},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SSK}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Satish\bibnamedelima Kumar},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=SRK}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Rajat\bibnamedelima Kumar},
+         giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{MDSSKSRK1}
+    \strng{fullhash}{MDSSKSRK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{108346}
+    \field{title}{Deep architectures for image compression: a critical review}
+    \field{volume}{191}
+    \field{journaltitle}{Signal Processing}
+    \field{year}{2022}
+  \endentry
+
   \entry{theis2017lossy}{article}{}
     \name{author}{4}{}{%
       {{hash=TL}{%
@@ -352,41 +387,6 @@
     \field{title}{Variational image compression with a scale hyperprior}
     \field{journaltitle}{arXiv preprint arXiv:1802.01436}
     \field{year}{2018}
-  \endentry
-
-  \entry{mishra2022deep}{article}{}
-    \name{author}{3}{}{%
-      {{hash=MD}{%
-         family={Mishra},
-         familyi={M\bibinitperiod},
-         given={Dipti},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=SSK}{%
-         family={Singh},
-         familyi={S\bibinitperiod},
-         given={Satish\bibnamedelima Kumar},
-         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=SRK}{%
-         family={Singh},
-         familyi={S\bibinitperiod},
-         given={Rajat\bibnamedelima Kumar},
-         giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{MDSSKSRK1}
-    \strng{fullhash}{MDSSKSRK1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{108346}
-    \field{title}{Deep architectures for image compression: a critical review}
-    \field{volume}{191}
-    \field{journaltitle}{Signal Processing}
-    \field{year}{2022}
   \endentry
 
   \entry{minnen2018joint}{article}{}
