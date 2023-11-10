@@ -29,8 +29,8 @@ Essendo \ref{eq:sadamH} lineare possiamo calcolare l’aggiornamento $h$ come de
 \delta h = F^{T} (-\rho C_{g}^{-\tfrac{1}{2}} m_{g}) = - \rho F^{T} C_{g}^{-\tfrac{1}{2}} Fm_{h}
 \end{equation}\\
 La stima della covaranza $ F^{T} C_{g} F$ deve essere diagonale nel dominio della trasformata di Fourier, non più nel dominio dei coefficienti dei filtri, e fino a quando $x$ è invariante per permutazioni, come tutti i dati spazio temporali, la base $F$ è garantito dia una buona approssimazione degli autovettori della vera struttura della covarianza dell’input $x$.\\
-Dai risultati sperimentali della ricerca di Ballé, SADAM stabilizza e velocizza il processo di addestramento delle reti, inoltre essendo Ballè un ricercatore per Google, aveva già implementato il codice per queste soluzioni alternative all’interno della popolare libreria Tensorflow \cite{tensorflow2015-whitepaper}.\\
-Alla luce di questi risultati ottenuti da Ballè ci chiediamo come mai negli anni successivi questo metodo non sia stato utilizzato per addestrare le nuove reti, ma si sia preferito continuare ad usare ADAM, come possiamo vedere nei lavori di Cheng et al. \cite{cheng2020learned} e Wang et al. \cite{wang2022neural}. Riteniamo quindi sarebbe interessante addestrare nuovamente queste reti utilizzando SADAM e valutare la differenza di prestazioni.
+Dai risultati sperimentali della ricerca di Ballé, SADAM stabilizza e velocizza il processo di addestramento delle reti, inoltre essendo Ballé un ricercatore per Google, aveva già implementato il codice per queste soluzioni alternative all’interno della popolare libreria Tensorflow \cite{tensorflow2015-whitepaper}.\\
+Alla luce di questi risultati ottenuti da Ballé ci chiediamo come mai negli anni successivi questo metodo non sia stato utilizzato per addestrare le nuove reti, ma si sia preferito continuare ad usare ADAM, come possiamo vedere nei lavori di Cheng et al. \cite{cheng2020learned} e Wang et al. \cite{wang2022neural}. Riteniamo quindi sarebbe interessante addestrare nuovamente queste reti utilizzando SADAM e valutare la differenza di prestazioni.
 
 
 \section{Utilizzi in dispositivi mobili con Slim CAE}

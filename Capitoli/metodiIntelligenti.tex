@@ -1,4 +1,4 @@
-\chapter{Metodi con intelligenza artificiale}
+\chapter{Metodi con reti neurali}
 Negli ultimi anni abbiamo assistito ad uno sviluppo rapidissimo dell’intelligenza artificiale. Nonostante non sia una novità, i recenti avanzamenti tecnologici e la sempre più crescente diponibilità di dati di addestramento, hanno permesso lo sviluppo rapidissimo di queste tecnologie.\\
 Anche l’ambito della computer vision e nello specifico della compressione ha seguito questo andamento, infatti negli ultimi anni sono state pubblicate numerose ricerche che vanno a proporre metodi sempre più efficienti per la compressione di immagini, appunto tramite l’uso di intelligenze artificiali.\\
 Le immagini naturali contengono al loro interno molte ridondanze spaziali che possono essere sfruttate per comprimere senza diminuire la qualità percepita. Le reti neurali sono eccellenti per questo compito, in quanto permettono di ridurre di molto le ridondanze ed identificare le regioni più significative, in modo da operare con maggiore precisione su esse.
@@ -43,15 +43,15 @@ In questa approssimazione $q$ rappresenta la densità di probabilità della dist
 Lo sviluppo dei compressive autoencoder o CAE e le soluzioni proposte per rendere possibile l’esecuzione di algoritmi di addestramento, che richiedono il calcolo dei gradienti delle funzioni di perdita. Hanno permesso di sviluppare, negli anni successivi, modelli e nuove soluzioni in grado di ottenere buone prestazioni rispetto agli algoritmi tradizionali. Una lista che comprende tutti i metodi sviluppati fino al 2022 è presente nel lavoro di Mishra et al. \cite{mishra2022deep}, noi ci concentreremo sui tre che hanno fornito il maggiore contributo alla ricerca.
 
 
-\subsection{Ballé 2018}
-Il primo metodo che andiamo ad analizzare è quello proposto nel 2018 da Ballé et al. \cite{minnen2018joint} che prosegue il lavoro di Ballè et al. del 2016 \cite{balle2018variational}, lavoro che ha ispirato anche la soluzione sopra descritta offerta da Theis \ref{eq:theisLinearApprox} un anno prima.\\
+\subsection{Variational compression with a scale hyperprior, Ballé 2018}
+Il primo metodo che andiamo ad analizzare è quello proposto nel 2018 da Ballé et al. \cite{minnen2018joint} che prosegue il lavoro di Ballé et al. del 2016 \cite{balle2018variational}, lavoro che ha ispirato anche la soluzione sopra descritta offerta da Theis \ref{eq:theisLinearApprox} un anno prima.\\
 Il metodo proposto da Ballé et al. nel 2018 utilizza un modello di probabilità misto a scala gaussiana o GSM dove i parametri di scala sono condizionati da un iperparametro. Questo modello permette l’addestramento end-to-end, ciò include anche l’ottimizzazione della rappresentazione quantizzata dell’iper parametro, del modello dell’entropia e dell’autoencoder principale.\\
 L’innovazione principale di questo modello è l’aggiunta dell’iper parametro nell’informazione trasmessa, ciò permette al decodificatore di usare un modello dell’entropia condizionato dall’iper parametro. Questo consente di avere un modello per l’entropia dipendente dall’immagine.\\
 L’immagine \ref{fig:balle2018Network} mostra l’architettura ad alto livello del modello di compressione, come si può osservare il modello sia composto da due sottoreti.
 \begin{figure}[!h]
     \centering
     \includegraphics[width=0.5\textwidth]{Immagini/Ballé2018_Rete.png}
-    \caption{Diagramma rete Ballè 2018 et al., immagine presa dal documento \cite{minnen2018joint}}
+    \caption{Diagramma rete Ballé 2018 et al., immagine presa dal documento \cite{minnen2018joint}}
     \label{fig:balle2018Network}
 \end{figure}\\
 La prima sottorete è l’autoencoder principale che ricava una rappresentazione latente delle immagini. La seconda invece ricava un modello di probabilità per effettuare la codifica entropica della rappresentazione latente.\\
@@ -90,15 +90,15 @@ Il team di Ballé fornisce anche i dettagli implementativi per i livelli della r
 Possiamo vedere degli esempi di compressione con questa rete nelle immagini \ref{fig:CompressedMbt2018} e \ref{fig:CompressedMbt2018Mean}, le due immagini sono state prodotte da due versioni diverse della rete, rispettivamente con media della gaussiana variabile e con media della gaussiana fissata a zero.\\
     
 
-\subsection{Cheng 2020}
-Il secondo metodo che approfondiremo è quello proposto da Cheng et al. nel 2020 \cite{cheng2020learned}, questo metodo prende come punto di partenza il lavoro di Ballè et al. \cite{minnen2018joint} e lo migliora apportando delle modifiche al modello di probabilità delle rappresentazioni latenti.\\
-Il lavoro di Ballè et al. \cite{minnen2018joint} utilizza una distribuzione Gaussiana con media e scala congiunta con un modello autoregressivo \ref{eq:mbtEntropy}. I test svolti dal team di Cheng hanno evidenziato della ridondanza spaziale residua, ridondanza che se possibile eliminare porterebbe a rappresentazioni leggermente ridotte e quindi più efficienti.\\
+\subsection{Discretized gaussian mixture likelihoods, Cheng 2020}
+Il secondo metodo che approfondiremo è quello proposto da Cheng et al. nel 2020 \cite{cheng2020learned}, questo metodo prende come punto di partenza il lavoro di Ballé et al. \cite{minnen2018joint} e lo migliora apportando delle modifiche al modello di probabilità delle rappresentazioni latenti.\\
+Il lavoro di Ballé et al. \cite{minnen2018joint} utilizza una distribuzione Gaussiana con media e scala congiunta con un modello autoregressivo \ref{eq:mbtEntropy}. I test svolti dal team di Cheng hanno evidenziato della ridondanza spaziale residua, ridondanza che se possibile eliminare porterebbe a rappresentazioni leggermente ridotte e quindi più efficienti.\\
 La loro proposta è quindi quella di utilizzare una miscela di gaussiane con la formulzione \ref{eq:cheng2020Entropy}
 \begin{equation}\label{eq:cheng2020Entropy}
     p_{\hat{y}}(\hat{y}|\hat{z}) = (\sum_{k=1}^{K} w_{i}^{(k)} \mathcal{N}(\mu_{i}^{(k)},\sigma_{i}^{2(k)})*\mathcal{U}(-\tfrac{1}{2},\tfrac{1}{2}))(\hat{y_{i}})
 \end{equation}\\
 Quindi ogni miscela è caratterizzata da tre parametri, un peso $w_{i}^{(k)}$, la media $\mu_{i}^{(k)}$ e la scala $\sigma_{i}^{2(k)}$.
-Con questo metodo sono comunque presenti delle ridondanze, ma l’aggiunta dei pesi $w_{i}$ permette al modello di adattarsi alle diverse regioni delle immagini. Inoltre le scale prodotte con questo metodo sono più piccole rispetto al metodo di Ballè et al. \cite{minnen2018joint}, il che rende il modello più accurato, risultando in una rappresentazione compressa dell’immagine che richiede meno bit.\\
+Con questo metodo sono comunque presenti delle ridondanze, ma l’aggiunta dei pesi $w_{i}$ permette al modello di adattarsi alle diverse regioni delle immagini. Inoltre le scale prodotte con questo metodo sono più piccole rispetto al metodo di Ballé et al. \cite{minnen2018joint}, il che rende il modello più accurato, risultando in una rappresentazione compressa dell’immagine che richiede meno bit.\\
 L’architettura della rete proposta da Cheng et al. \cite{cheng2020learned} è rappresentata nell’immagine \ref{fig:cheng2020Network}, come possiamo osservare anche qui sono presenti due sottoreti. Una responsabile di ricavare la rappresentazione latente dell’immagine, l’altra di ricavare gli iperparametri.\\
 \begin{figure}[!h]
     \centering
@@ -127,7 +127,7 @@ Possiamo vedere degli esempi di compressione con questa rete nelle immagini \ref
     \label{fig:cheng2020AttnModule}
 \end{figure}
 
-\subsection{Wang 2022}
+\subsection{Neural data-dependent transform, Wang 2022}
 Il terzo ed ultimo metodo che andremo ad approfondire è quello proposto nel 2022 da Wang et al. \cite{wang2022neural}, questo metodo propone un nuovo approccio per rendere la compressione di un’immagine dipendente dall’immagine stessa. Per fare ciò hanno preso ispirazione dai precedenti lavori e dai modelli di codifica ibridi, il framework proposto cerca la migliore trasformata per comprimere l’immagine specifica, la proposta di Wang et al. si differenzia dai metodi sviluppati in precedenza nei seguenti aspetti.\\
 Durante la fase di codifica vengono prodotti sia la rappresentazione compressa sia una rappresentazione neuro-sintattica, in grado di catturare informazioni astratte sul contesto dell’immagine che possano aiutare a proiettare la rappresentazione compressa in un sottospazio in cui i coefficienti sono più compatti.\\
 Il modello per la codifica entropica si differenzia da quelli esistenti in quanto le due rappresentazioni latenti $\hat{z_{s}}$ e $\hat{z_ {c}}$ vengono codificate separatamente \ref{eq:wang2022LatentEnc} in due stringhe di bit compresse $b_{s}$ e $b_{c}$.\\
@@ -200,7 +200,7 @@ Di questo modello non possiamo fornire degli esempi di compressione in quanto il
         \caption{mbt2018 mean}
         \label{fig:CompressedMbt2018Mean}
     \end{subfigure}
-    \caption{Confronto PNG con Ballè2018 a 0.145 bpp}
+    \caption{Confronto PNG con Ballé2018 a 0.145 bpp}
     \label{fig:CompressionMbt2018}
 \end{figure}
 

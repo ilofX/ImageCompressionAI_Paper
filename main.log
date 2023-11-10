@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.20)  8 NOV 2023 15:02
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.20)  10 NOV 2023 11:34
  system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/filip/VSCodeProjects/ImageCompressionAI_Paper/main.tex
@@ -1715,7 +1715,7 @@ Package luatex.def Info: Immagini/IMAGES/cheng2020-anchor_3_IMG0004.pdf  used on
 ) (./Capitoli/valutazionePrestazioni.tex [22<./Immagini/IMAGES/cheng2020_attn_3_IMG0004.pdf><./Immagini/IMAGES/cheng2020-anchor_3_IMG0004.pdf>]
 Capitolo 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--6
+Underfull \hbox (badness 10000) in paragraph at lines 2--7
 
  []
 
@@ -1725,151 +1725,180 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [23
 
 ]
-Underfull \hbox (badness 1418) in paragraph at lines 8--10
+Underfull \hbox (badness 1418) in paragraph at lines 9--11
 \TU/TimesNewRoman(0)/m/n/12 Per va-lu-ta-re le pre-sta-zio-ni fac-cia-mo af-fi-da-men-to ad al-cu-ne me-tri-che che ci per-met-to-no
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
 ("c:/Program Files/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty"
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 19.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 20.
 
-Overfull \hbox (63.16116pt too wide) in paragraph at lines 40--41
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Overfull \hbox (63.16116pt too wide) in paragraph at lines 41--42
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 46--49
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--55
+Underfull \vbox (badness 1173) has occurred while \output is active []
+
+ [25]
+Underfull \hbox (badness 10000) in paragraph at lines 52--56
 
  []
 
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--82
+Underfull \hbox (badness 10000) in paragraph at lines 80--83
 
  []
 
-[26]
-Overfull \hbox (135.1619pt too wide) in paragraph at lines 96--97
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Overfull \hbox (135.1619pt too wide) in paragraph at lines 97--98
 [][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (149.56204pt too wide) in paragraph at lines 97--98
+Overfull \hbox (149.56204pt too wide) in paragraph at lines 98--99
 [][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (120.76175pt too wide) in paragraph at lines 98--99
+Overfull \hbox (120.76175pt too wide) in paragraph at lines 99--100
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--108
+Underfull \hbox (badness 10000) in paragraph at lines 106--109
 
  []
 
-[27]
-Overfull \hbox (135.1619pt too wide) in paragraph at lines 121--122
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+Overfull \hbox (135.1619pt too wide) in paragraph at lines 122--123
 [][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (149.56204pt too wide) in paragraph at lines 122--123
+Overfull \hbox (149.56204pt too wide) in paragraph at lines 123--124
 [][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (27.1608pt too wide) in paragraph at lines 123--124
+Overfull \hbox (27.1608pt too wide) in paragraph at lines 124--125
 [][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (257.56314pt too wide) in paragraph at lines 124--125
+Overfull \hbox (257.56314pt too wide) in paragraph at lines 125--126
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (34.36087pt too wide) in paragraph at lines 125--126
+Overfull \hbox (34.36087pt too wide) in paragraph at lines 126--127
 [][][][][][][][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--137
+Underfull \hbox (badness 10000) in paragraph at lines 133--138
 
  []
 
-[28]
-<Immagini/METRICS/times@0.07bpp.png, id=635, 1445.4pt x 722.7pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+<Immagini/METRICS/times@0.07bpp.png, id=634, 1445.4pt x 722.7pt>
 File: Immagini/METRICS/times@0.07bpp.png Graphic file (type png)
 <use Immagini/METRICS/times@0.07bpp.png>
-Package luatex.def Info: Immagini/METRICS/times@0.07bpp.png  used on input line 140.
+Package luatex.def Info: Immagini/METRICS/times@0.07bpp.png  used on input line 141.
 (luatex.def)             Requested size: 455.24411pt x 227.61862pt.
- [29<./Immagini/METRICS/times@0.07bpp.png>]
-<Immagini/METRICS/times@0.16bpp.png, id=642, 1445.4pt x 722.7pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29]
+<Immagini/METRICS/times@0.16bpp.png, id=641, 1445.4pt x 722.7pt>
 File: Immagini/METRICS/times@0.16bpp.png Graphic file (type png)
 <use Immagini/METRICS/times@0.16bpp.png>
-Package luatex.def Info: Immagini/METRICS/times@0.16bpp.png  used on input line 147.
+Package luatex.def Info: Immagini/METRICS/times@0.16bpp.png  used on input line 148.
 (luatex.def)             Requested size: 455.24411pt x 227.61862pt.
-<Immagini/METRICS/times@0.21bpp.png, id=643, 1445.4pt x 722.7pt>
+<Immagini/METRICS/times@0.21bpp.png, id=642, 1445.4pt x 722.7pt>
 File: Immagini/METRICS/times@0.21bpp.png Graphic file (type png)
 <use Immagini/METRICS/times@0.21bpp.png>
-Package luatex.def Info: Immagini/METRICS/times@0.21bpp.png  used on input line 154.
+Package luatex.def Info: Immagini/METRICS/times@0.21bpp.png  used on input line 155.
 (luatex.def)             Requested size: 455.24411pt x 227.61862pt.
- [30<./Immagini/METRICS/times@0.16bpp.png><./Immagini/METRICS/times@0.21bpp.png>]
-<Immagini/METRICS/times@0.34bpp.png, id=650, 1445.4pt x 722.7pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[30<./Immagini/METRICS/times@0.07bpp.png><./Immagini/METRICS/times@0.16bpp.png>]
+<Immagini/METRICS/times@0.34bpp.png, id=649, 1445.4pt x 722.7pt>
 File: Immagini/METRICS/times@0.34bpp.png Graphic file (type png)
 <use Immagini/METRICS/times@0.34bpp.png>
-Package luatex.def Info: Immagini/METRICS/times@0.34bpp.png  used on input line 161.
+Package luatex.def Info: Immagini/METRICS/times@0.34bpp.png  used on input line 162.
 (luatex.def)             Requested size: 455.24411pt x 227.61862pt.
-<Immagini/METRICS/times@0.41bpp.png, id=651, 1445.4pt x 722.7pt>
+<Immagini/METRICS/times@0.41bpp.png, id=650, 1445.4pt x 722.7pt>
 File: Immagini/METRICS/times@0.41bpp.png Graphic file (type png)
 <use Immagini/METRICS/times@0.41bpp.png>
-Package luatex.def Info: Immagini/METRICS/times@0.41bpp.png  used on input line 168.
+Package luatex.def Info: Immagini/METRICS/times@0.41bpp.png  used on input line 169.
 (luatex.def)             Requested size: 455.24411pt x 227.61862pt.
- [31<./Immagini/METRICS/times@0.34bpp.png><./Immagini/METRICS/times@0.41bpp.png>]
-<Immagini/METRICS/PSNR.png, id=660, 722.7pt x 722.7pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[31<./Immagini/METRICS/times@0.21bpp.png><./Immagini/METRICS/times@0.34bpp.png>] [32<./Immagini/METRICS/times@0.41bpp.png>]
+<Immagini/METRICS/PSNR.png, id=664, 722.7pt x 722.7pt>
 File: Immagini/METRICS/PSNR.png Graphic file (type png)
 <use Immagini/METRICS/PSNR.png>
-Package luatex.def Info: Immagini/METRICS/PSNR.png  used on input line 178.
+Package luatex.def Info: Immagini/METRICS/PSNR.png  used on input line 179.
 (luatex.def)             Requested size: 409.71692pt x 409.71571pt.
-<Immagini/METRICS/MS-SSIM.png, id=662, 722.7pt x 722.7pt>
+<Immagini/METRICS/MS-SSIM.png, id=666, 722.7pt x 722.7pt>
 File: Immagini/METRICS/MS-SSIM.png Graphic file (type png)
 <use Immagini/METRICS/MS-SSIM.png>
-Package luatex.def Info: Immagini/METRICS/MS-SSIM.png  used on input line 186.
+Package luatex.def Info: Immagini/METRICS/MS-SSIM.png  used on input line 187.
 (luatex.def)             Requested size: 409.71692pt x 409.71571pt.
-<Immagini/METRICS/LPIPS.png, id=664, 722.7pt x 722.7pt>
+<Immagini/METRICS/LPIPS.png, id=668, 722.7pt x 722.7pt>
 File: Immagini/METRICS/LPIPS.png Graphic file (type png)
 <use Immagini/METRICS/LPIPS.png>
-Package luatex.def Info: Immagini/METRICS/LPIPS.png  used on input line 194.
+Package luatex.def Info: Immagini/METRICS/LPIPS.png  used on input line 195.
 (luatex.def)             Requested size: 409.71692pt x 409.71571pt.
 ) (./Capitoli/sviluppiFuturi.tex
-Underfull \hbox (badness 10000) in paragraph at lines 174--1
+Underfull \hbox (badness 10000) in paragraph at lines 175--1
 
  []
 
-[32
+[33
 
-<./Immagini/METRICS/PSNR.png>] [33<./Immagini/METRICS/MS-SSIM.png>] [34<./Immagini/METRICS/LPIPS.png>]
+<./Immagini/METRICS/PSNR.png>] [34<./Immagini/METRICS/MS-SSIM.png>] [35<./Immagini/METRICS/LPIPS.png>] [36
+
+]
 Capitolo 4.
 
 Underfull \hbox (badness 1028) in paragraph at lines 5--7
@@ -1891,9 +1920,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--15
 
  []
 
-[35
-
-]
+[37]
 Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
  []
@@ -1916,12 +1943,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--41
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
+ [38]
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
-<Immagini/slimCAE.png, id=725, 271.0125pt x 230.8625pt>
+<Immagini/slimCAE.png, id=733, 271.0125pt x 230.8625pt>
 File: Immagini/slimCAE.png Graphic file (type png)
 <use Immagini/slimCAE.png>
 Package luatex.def Info: Immagini/slimCAE.png  used on input line 53.
@@ -1929,30 +1956,30 @@ Package luatex.def Info: Immagini/slimCAE.png  used on input line 53.
 ) (./Capitoli/conclusioni.tex
 Underfull \vbox (badness 4518) has occurred while \output is active []
 
- [37] [38<./Immagini/slimCAE.png>]
+ [39] [40<./Immagini/slimCAE.png>]
 Capitolo 5.
 )
 Underfull \hbox (badness 10000) in paragraph at lines 2--91
 
  []
 
-[39
+[41
 
-] [40
+] [42
 
 ]
 Underfull \hbox (badness 1648) in paragraph at lines 93--93
 []\TU/TimesNewRoman(0)/m/n/12 L. Theis, W. Shi, A. Cun-nin-gham e F. Huszár, «  Los-sy ima-ge com-pres-sion with
  []
 
-[41
+[43
 
 ]
 Underfull \hbox (badness 7522) in paragraph at lines 93--93
 []\TU/TimesNewRoman(0)/m/n/12 F. Stel-la, \TU/TimesNewRoman(0)/m/it/12 Ima-ge Com-pres-sion AI\TU/TimesNewRoman(0)/m/n/12 , []$\TU/lmtt/m/n/12 https : / / github . com / ilofX /
  []
 
-[42] [43] (./main.aux)
+[44] [45] (./main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1962,7 +1989,7 @@ L3 programming layer <2023-08-29>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 72CEDCC014869B3C31C34C193A13A4ED;1711.
+(rerunfilecheck)             Checksum: BF5E3F7ABAC01626CA43C463C587B2D0;2058.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -1974,18 +2001,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45844 strings out of 477259
+ 45846 strings out of 477259
  125009,1977958 words of node,token memory allocated
  1024 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 135 attribute, 67 glue_spec, 69 attribute_list, 2 write, 8 pdf_action nodes
-   avail lists: 1:5,2:1335,3:385,4:107,5:465,6:89,7:8459,8:89,9:2040,10:38,11:1333
+   avail lists: 1:6,2:1383,3:385,4:108,5:477,6:88,7:9375,8:89,9:2055,10:38,11:1333
  65787 multiletter control sequences out of 65536+600000
  61 fonts using 21238575 bytes
  101i,16n,100p,1931b,3606s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Program Files/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf><c:/Windows/Fonts/timesi.ttf><c:/Windows/Fonts/timesbd.ttf><c:/Windows/Fonts/times.ttf><c:/Program Files/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Program Files/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Program Files/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/Program Files/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/Program Files/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Program Files/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Program Files/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Program Files/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/Program Files/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (53 pages, 4270279 bytes).
+Output written on main.pdf (55 pages, 4274200 bytes).
 
-PDF statistics: 869 PDF objects out of 1000 (max. 8388607)
- 203 named destinations out of 1000 (max. 131072)
+PDF statistics: 877 PDF objects out of 1000 (max. 8388607)
+ 205 named destinations out of 1000 (max. 131072)
  231 words of extra memory for PDF output out of 10000 (max. 100000000)
 
