@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1699801610 "main.aux" "main.bbl" "main" 1699801619 0
+["bibtex main"] 1699802109 "main.aux" "main.bbl" "main" 1699802117 0
   "./bibliografia.bib" 1699611881 8343 e3880d4f4b3bfae0658fe24e38afea14 ""
-  "./main-blx.bib" 1699801617 343 27af2fa4d0370999ebe8f3266686c889 ""
+  "./main-blx.bib" 1699802115 343 27af2fa4d0370999ebe8f3266686c889 ""
   "c:/Program Files/texlive/2023/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1695220347 65484 b7949c47a88ed6dca66ebc7a04577312 ""
-  "main.aux" 1699801617 28894 326361951139aeaa92a48e6e570496c7 "lualatex"
+  "main.aux" 1699802115 28894 326361951139aeaa92a48e6e570496c7 "lualatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["lualatex"] 1699801611 "c:/Users/filip/VSCodeProjects/ImageCompressionAI_Paper/main.tex" "main.pdf" "main" 1699801619 0
+["lualatex"] 1699802109 "c:/Users/filip/VSCodeProjects/ImageCompressionAI_Paper/main.tex" "main.pdf" "main" 1699802117 0
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc" 1697132202 81778 4b971d418b2657fbe4a746850e4f2af5 ""
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1697132195 128305 e5457bd3ae88deafa40b26f92c7eb4fc ""
   "C:/Users/filip/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1697132187 127676 2cf9bffa5f112af2299efa77357666f7 ""
@@ -347,18 +347,18 @@
   "c:/Program Files/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1695225146 4721919 9ab709309862846109b891a4d54f6df4 ""
   "c:/Program Files/texlive/2023/texmf-var/tex/generic/config/language.dat" 1695225128 7104 afbfac8f340a3b072cca01f41ce9ceb7 ""
   "c:/Program Files/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt" 1695225272 12204038 c8fadc42da79e1dddd2f5503e4269605 ""
-  "c:/Users/filip/VSCodeProjects/ImageCompressionAI_Paper/main.tex" 1699451851 5435 eb7f26902291cc320a70420273c4a8cf ""
+  "c:/Users/filip/VSCodeProjects/ImageCompressionAI_Paper/main.tex" 1699802000 5421 9ae593712022ac5e5b96d05fe2492c78 ""
   "c:/Windows/Fonts/times.ttf" 1651900759 1206884 458ef4da231b90ee89ef6d4d85c16633 ""
   "c:/Windows/Fonts/timesbd.ttf" 1651900759 1185876 d34f6a4606c0b4456cc2cc45caf8e123 ""
   "c:/Windows/Fonts/timesi.ttf" 1651900759 977892 4e1c7e34753073b9862671f9d6b5f511 ""
-  "main.aux" 1699801617 28894 326361951139aeaa92a48e6e570496c7 "lualatex"
-  "main.bbl" 1699801611 29594 49c1795e3a520c58ec75dd862f0b2515 "bibtex main"
-  "main.lof" 1699801617 3511 69ca7e1e595f1d55490e9c6c9316b59e "lualatex"
-  "main.out" 1699801617 2064 d676423177b0281d1481823c0fc35bc7 "lualatex"
-  "main.run.xml" 1699801617 2656 2acb9623ba9168458e0beafc4da3ef76 "lualatex"
-  "main.tex" 1699451851 5435 eb7f26902291cc320a70420273c4a8cf ""
-  "main.toc" 1699801617 2166 bd15c45a2ba13052b6b30775de1829a8 "lualatex"
-  "pdfa.xmpi" 1699801612 5042 39f6c7e3bda1c3043de4c7e7fc75b9b5 "lualatex"
+  "main.aux" 1699802115 28894 326361951139aeaa92a48e6e570496c7 "lualatex"
+  "main.bbl" 1699802109 29594 49c1795e3a520c58ec75dd862f0b2515 "bibtex main"
+  "main.lof" 1699802115 3511 69ca7e1e595f1d55490e9c6c9316b59e "lualatex"
+  "main.out" 1699802115 2064 d676423177b0281d1481823c0fc35bc7 "lualatex"
+  "main.run.xml" 1699802115 2656 2acb9623ba9168458e0beafc4da3ef76 "lualatex"
+  "main.tex" 1699802000 5421 9ae593712022ac5e5b96d05fe2492c78 ""
+  "main.toc" 1699802115 2166 bd15c45a2ba13052b6b30775de1829a8 "lualatex"
+  "pdfa.xmpi" 1699802111 5042 aa1bd7d40880d41126138fbbaf5b76fc "lualatex"
   (generated)
   "main-blx.bib"
   "main.aux"
