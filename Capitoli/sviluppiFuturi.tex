@@ -2,7 +2,7 @@
 
 \section{Possibile utilizzo di SADAM}
 
-In una ricerca del 2018 Ballé introduce Spectral ADAM (SADAM) \cite{balle2018efficient}, un'alternativa all’algoritmo ADAM \cite{kingma2014adam}, per l’addestramento di reti di compressione.\\
+In una ricerca del 2018 Ballé introduce SpectralADAM (SADAM) \cite{balle2018efficient}, un'alternativa all’algoritmo ADAM \cite{kingma2014adam}, per l’addestramento di reti di compressione.\\
 Se consideriamo una funzione di perdita $L$ che consiste in una somma di funzioni di una proiezione lineare dei vettori in input $x$ \ref{eq:SGDLoss}, dove $H$ è una matrice di filtri $h_{i}$. I filtri sono una parte dei parametri che devono essere ottimizzati in fase di addestramento, per ogni filtro la regola di aggiornamento del gradient descent \ref{eq:SGDUpdate} sottrae il gradiente della funzione di perdita moltiplicato per lo step size $\rho$.\\
 \begin{equation}\label{eq:SGDLoss}
 L = \sum_{x} l(x) \:\: \textrm{with} \:\: z = Hx
@@ -11,7 +11,7 @@ L = \sum_{x} l(x) \:\: \textrm{with} \:\: z = Hx
 \Delta h = - \rho \dfrac{\partial L}{\partial h} = - \rho \sum_{x} \dfrac{\partial l}{\partial z} x
 \end{equation}\\
 L’aggiornamento $\Delta H$ consiste in somme scalari di vettori $x$ proiettate sui filtri corrispondenti, quindi ereditano la maggior parte della struttura della covarianza dei dati in input. Di conseguenza se $x$ fa parte di un insieme di immagini naturali abbiamo che lo spettro della potenza è inversamente proporzionale a quello della frequenza \cite{field1987relations}, dunque lo step size per componenti a basse frequenze è molto più grande rispetto a componenti ad alte frequenze, questo può portare a problemi di convergenza e in casi rari di stabilità.\\
-Un metodo per risolvere questo problema è l’uso di un algoritmo diverso, simile al gradient descent, l’algoritmo ADAM \cite{kingma2014adam}, la cui funzione di aggiornamento \ref{eq:adamUpdate} varia leggermente. Dove $m_{h}$ è una media costantemente aggiornata della derivata $\dfrac{\partial l}{\partial z}$ e $C_{h}$ è una matrice diagonale che rappresenta la stima della covarianza.\\
+Un metodo per risolvere questo problema è l’uso di un algoritmo diverso, simile al gradient descent, l’algoritmo ADAM \cite{kingma2014adam}, la cui funzione di aggiornamento \ref{eq:adamUpdate} varia leggermente. Dove $m_{h}$ è una media costantemente aggiornata della derivata $\tfrac{\partial l}{\partial z}$ e $C_{h}$ è una matrice diagonale che rappresenta la stima della covarianza.\\
 \begin{equation}\label{eq:adamUpdate}
 \Delta h = - \rho C_{h}^{-\tfrac{1}{2}} m_{h}
 \end{equation}\\
@@ -26,7 +26,7 @@ Per ottimizzare $g$ usiamo la derivata \ref{eq:sadamGradient} ed applichiamo la 
 \end{equation}\\
 Essendo \ref{eq:sadamH} lineare possiamo calcolare l’aggiornamento $h$ come descritto nell’equazione \ref{eq:sadamUpdate}, dove $m_{g}$ e $C_{g}$ sono delle medie costantemente aggiornate delle derivate \ref{eq:sadamGradient} \\
 \begin{equation}\label{eq:sadamUpdate}
-\delta h = F^{T} (-\rho C_{g}^{-\tfrac{1}{2}} m_{g}) = - \rho F^{T} C_{g}^{-\tfrac{1}{2}} Fm_{h}
+\Delta h = F^{T} (-\rho C_{g}^{-\tfrac{1}{2}} m_{g}) = - \rho F^{T} C_{g}^{-\tfrac{1}{2}} Fm_{h}
 \end{equation}\\
 La stima della covaranza $ F^{T} C_{g} F$ deve essere diagonale nel dominio della trasformata di Fourier, non più nel dominio dei coefficienti dei filtri, e fino a quando $x$ è invariante per permutazioni, come tutti i dati spazio temporali, la base $F$ è garantito dia una buona approssimazione degli autovettori della vera struttura della covarianza dell’input $x$.\\
 Dai risultati sperimentali della ricerca di Ballé, SADAM stabilizza e velocizza il processo di addestramento delle reti, inoltre essendo Ballé un ricercatore per Google, aveva già implementato il codice per queste soluzioni alternative all’interno della popolare libreria Tensorflow \cite{tensorflow2015-whitepaper}.\\

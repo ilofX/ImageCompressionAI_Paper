@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.20)  10 NOV 2023 11:34
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.9.20)  12 NOV 2023 16:06
  system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/filip/VSCodeProjects/ImageCompressionAI_Paper/main.tex
@@ -1901,11 +1901,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--1
 ]
 Capitolo 4.
 
-Underfull \hbox (badness 1028) in paragraph at lines 5--7
-\TU/TimesNewRoman(0)/m/n/12 In una ri-cer-ca del 2018 Bal-lé in-tro-du-ce Spec-tral ADAM (SA-DAM) [[]22[]], un’al-ter-na-ti-va
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
@@ -1920,7 +1915,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--15
 
  []
 
-[37]
+
+Underfull \vbox (badness 1454) has occurred while \output is active []
+
+ [37]
 Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
  []
@@ -1989,7 +1987,7 @@ L3 programming layer <2023-08-29>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BF5E3F7ABAC01626CA43C463C587B2D0;2058.
+(rerunfilecheck)             Checksum: D676423177B0281D1481823C0FC35BC7;2064.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -2003,14 +2001,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of LuaTeX's memory you used:
  45846 strings out of 477259
  125009,1977958 words of node,token memory allocated
- 1024 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 135 attribute, 67 glue_spec, 69 attribute_list, 2 write, 8 pdf_action nodes
-   avail lists: 1:6,2:1383,3:385,4:108,5:477,6:88,7:9375,8:89,9:2055,10:38,11:1333
+ 1060 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 147 attribute, 67 glue_spec, 75 attribute_list, 2 write, 8 pdf_action nodes
+   avail lists: 1:5,2:1383,3:385,4:106,5:477,6:88,7:9376,8:89,9:2055,10:38,11:1333
  65787 multiletter control sequences out of 65536+600000
  61 fonts using 21238575 bytes
  101i,16n,100p,1931b,3606s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Program Files/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf><c:/Windows/Fonts/timesi.ttf><c:/Windows/Fonts/timesbd.ttf><c:/Windows/Fonts/times.ttf><c:/Program Files/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Program Files/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Program Files/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/Program Files/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/Program Files/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Program Files/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Program Files/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Program Files/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/Program Files/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (55 pages, 4274200 bytes).
+Output written on main.pdf (55 pages, 4274586 bytes).
 
 PDF statistics: 877 PDF objects out of 1000 (max. 8388607)
  205 named destinations out of 1000 (max. 131072)
